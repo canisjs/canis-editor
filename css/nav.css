@@ -1,0 +1,42 @@
+.nav-container {
+    position: relative;
+    background: #fff;
+    display: flex;
+    height: 40px;
+    flex-direction: row;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.05);
+    z-index: 999;
+}
+
+.menu-bar-left {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.menu-bar-right {
+    display: flex;
+    align-items: center;
+    margin-right: 8px;
+}
+
+.title-span {
+    height: 20px;
+    line-height: 20px;
+    display: inline-block;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.title-span .cont-text {
+    font-family: "Lato", "Lucida Grande", "Segoe UI", sans-serif;
+    font-weight: 700;
+    color: #333;
+    margin: 0 10px;
+    text-transform: uppercase;
+    transition: text-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.title-span:hover .cont-text {
+    text-shadow: 0 0 0.2em rgba(0, 0, 0, 0.2);
+}

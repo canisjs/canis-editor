@@ -1,0 +1,112 @@
+<svg id="visChart" class="marks" width="368" height="267" viewBox="0 0 368 267" version="1.1" 
+    xmlns="http://www.w3.org/2000/svg" 
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g transform="translate(54,5)" id="chartContent">
+        <g class="mark-group role-frame root frame">
+            <g transform="translate(0,0)">
+                <path class="background" d="M0,0h300v240h-300Z" fill="none"></path>
+                <g>
+                    <g class="mark-group role-axis axis" data-datum="{&quot;_TYPE&quot;:&quot;axis&quot;,&quot;type&quot;:&quot;bottom&quot;,&quot;position&quot;:&quot;&quot;}">
+                        <g transform="translate(0.5,240.5)">
+                            <path class="background" d="M0,0h0v0h0Z" fill="none"></path>
+                            <g>
+                                <g class="mark-rule role-axis-grid axis-grid">
+                                    <line id="mark0" class="mark axis-grid" data-datum="{&quot;_TYPE&quot;:&quot;axis-grid&quot;}" transform="translate(0,0)" x2="0.003887361401621976" y2="-239.9928061562433" fill="none" stroke="#ddd" stroke-width="1" opacity="1"></line>
+                                    <line id="mark1" class="mark axis-grid" data-datum="{&quot;_TYPE&quot;:&quot;axis-grid&quot;}" transform="translate(38,0)" x2="0.0019419228011131695" y2="-239.9983332674056" fill="none" stroke="#ddd" stroke-width="1" opacity="1"></line>
+                                    <line id="mark2" class="mark axis-grid" data-datum="{&quot;_TYPE&quot;:&quot;axis-grid&quot;}" transform="translate(75,0)" x2="0.008913365598766695" y2="-239.99413059193284" fill="none" stroke="#ddd" stroke-width="1" opacity="1"></line>
+                                    <line id="mark3" class="mark axis-grid" data-datum="{&quot;_TYPE&quot;:&quot;axis-grid&quot;}" transform="translate(113,0)" x2="0.0012796834981021" y2="-239.9902239831687" fill="none" stroke="#ddd" stroke-width="1" opacity="1"></line>
+                                    <line id="mark4" class="mark axis-grid" data-datum="{&quot;_TYPE&quot;:&quot;axis-grid&quot;}" transform="translate(150,0)" x2="0.004173539505887485" y2="-239.99327057333272" fill="none" stroke="#ddd" stroke-width="1" opacity="1"></line>
+                                    <line id="mark5" class="mark axis-grid" data-datum="{&quot;_TYPE&quot;:&quot;axis-grid&quot;}" transform="translate(188,0)" x2="0.008935257355555296" y2="-239.99994313205798" fill="none" stroke="#ddd" stroke-width="1" opacity="1"></line>
+                                    <line id="mark6" class="mark axis-grid" data-datum="{&quot;_TYPE&quot;:&quot;axis-grid&quot;}" transform="translate(225,0)" x2="0.008185653929965066" y2="-239.99264203378632" fill="none" stroke="#ddd" stroke-width="1" opacity="1"></line>
+                                    <line id="mark7" class="mark axis-grid" data-datum="{&quot;_TYPE&quot;:&quot;axis-grid&quot;}" transform="translate(263,0)" x2="0.0018982402853875713" y2="-239.9937846325904" fill="none" stroke="#ddd" stroke-width="1" opacity="1"></line>
+                                    <line id="mark8" class="mark axis-grid" data-datum="{&quot;_TYPE&quot;:&quot;axis-grid&quot;}" transform="translate(300,0)" x2="0.009350675646665535" y2="-239.99193825633213" fill="none" stroke="#ddd" stroke-width="1" opacity="1"></line>
+                                </g>
+                                <g class="mark-rule role-axis-tick axis-tick">
+                                    <line id="mark1000" class="mark axis-tick" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;}" transform="translate(0,0)" x2="0.0031579368647031212" y2="5.004826975935811" fill="none" stroke="#888" stroke-width="1" opacity="1"></line>
+                                    <line id="mark1001" class="mark axis-tick" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;}" transform="translate(38,0)" x2="0.006056347714315957" y2="5.00921503429998" fill="none" stroke="#888" stroke-width="1" opacity="1"></line>
+                                    <line id="mark1002" class="mark axis-tick" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;}" transform="translate(75,0)" x2="0.003504159643082645" y2="5.003889143252104" fill="none" stroke="#888" stroke-width="1" opacity="1"></line>
+                                    <line id="mark1003" class="mark axis-tick" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;}" transform="translate(113,0)" x2="0.0017765046248975724" y2="5.00670967685615" fill="none" stroke="#888" stroke-width="1" opacity="1"></line>
+                                    <line id="mark1004" class="mark axis-tick" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;}" transform="translate(150,0)" x2="0.0050872516842647" y2="5.009691185736582" fill="none" stroke="#888" stroke-width="1" opacity="1"></line>
+                                    <line id="mark1005" class="mark axis-tick" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;}" transform="translate(188,0)" x2="0.009590129329045965" y2="5.009165788773627" fill="none" stroke="#888" stroke-width="1" opacity="1"></line>
+                                    <line id="mark1006" class="mark axis-tick" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;}" transform="translate(225,0)" x2="0.000730242792424276" y2="5.005371128849603" fill="none" stroke="#888" stroke-width="1" opacity="1"></line>
+                                    <line id="mark1007" class="mark axis-tick" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;}" transform="translate(263,0)" x2="0.009136018095596343" y2="5.002716584382191" fill="none" stroke="#888" stroke-width="1" opacity="1"></line>
+                                    <line id="mark1008" class="mark axis-tick" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;}" transform="translate(300,0)" x2="0.008140880446933525" y2="5.003194867093895" fill="none" stroke="#888" stroke-width="1" opacity="1"></line>
+                                </g>
+                                <g class="mark-text role-axis-label axis-label">
+                                    <text id="mark2000" class="mark axis-label" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;}" text-anchor="middle" transform="translate(0,15)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">0</text>
+                                    <text id="mark2001" class="mark axis-label" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;}" text-anchor="middle" transform="translate(38,15)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">50</text>
+                                    <text id="mark2002" class="mark axis-label" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;}" text-anchor="middle" transform="translate(75,15)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">100</text>
+                                    <text id="mark2003" class="mark axis-label" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;}" text-anchor="middle" transform="translate(113,15)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">150</text>
+                                    <text id="mark2004" class="mark axis-label" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;}" text-anchor="middle" transform="translate(150,15)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">200</text>
+                                    <text id="mark2005" class="mark axis-label" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;}" text-anchor="middle" transform="translate(188,15)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">250</text>
+                                    <text id="mark2006" class="mark axis-label" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;}" text-anchor="middle" transform="translate(225,15)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">300</text>
+                                    <text id="mark2007" class="mark axis-label" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;}" text-anchor="middle" transform="translate(263,15)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">350</text>
+                                    <text id="mark2008" class="mark axis-label" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;}" text-anchor="middle" transform="translate(300,15)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">400</text>
+                                </g>
+                                <g class="mark-rule role-axis-domain axis-domain">
+                                    <line id="mark3000" class="mark axis-domain" data-datum="{&quot;_TYPE&quot;:&quot;axis-domain&quot;}" transform="translate(0,0)" x2="300.0010191447833" y2="0.005936595034523073" fill="none" stroke="#888" stroke-width="1" opacity="1"></line>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g class="mark-group role-axis axis" data-datum="{&quot;_TYPE&quot;:&quot;axis&quot;,&quot;type&quot;:&quot;left&quot;,&quot;position&quot;:&quot;&quot;}">
+                        <g transform="translate(0.5,0.5)">
+                            <path class="background" d="M0,0h0v0h0Z" fill="none"></path>
+                            <g>
+                                <g class="mark-rule role-axis-tick axis-tick">
+                                    <line id="mark1009" class="mark axis-tick" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;}" transform="translate(0,44)" x2="0.00007781332389095397" y2="0.007306946725755237" fill="none" stroke="#888" stroke-width="1" opacity="1"></line>
+                                    <line id="mark1010" class="mark axis-tick" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;}" transform="translate(0,119)" x2="0.006380181432001431" y2="0.008026578226728259" fill="none" stroke="#888" stroke-width="1" opacity="1"></line>
+                                    <line id="mark1011" class="mark axis-tick" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;}" transform="translate(0,194)" x2="0.00804821685027832" y2="0.00031407242394375866" fill="none" stroke="#888" stroke-width="1" opacity="1"></line>
+                                </g>
+                                <g class="mark-text role-axis-label axis-label">
+                                    <text id="mark2009" class="mark axis-label" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;}" text-anchor="end" transform="translate(-4,47)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">Service</text>
+                                    <text id="mark2010" class="mark axis-label" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;}" text-anchor="end" transform="translate(-4,122)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">Software</text>
+                                    <text id="mark2011" class="mark axis-label" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;}" text-anchor="end" transform="translate(-4,197)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">Hardware</text>
+                                </g>
+                                <g class="mark-rule role-axis-domain axis-domain">
+                                    <line id="mark3001" class="mark axis-domain" data-datum="{&quot;_TYPE&quot;:&quot;axis-domain&quot;}" transform="translate(0,0)" x2="0.009440371057399675" y2="240.0043374652726" fill="none" stroke="#888" stroke-width="1" opacity="1"></line>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g class="mark-group role-scope scope">
+                        <g transform="translate(0,15)">
+                            <path class="background" d="M0,0h0v0h0Z" fill="none"></path>
+                            <g>
+                                <g class="mark-rect role-mark bars">
+                                    <path id="mark4000" class="mark element0 rectangle" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;element0&quot;,&quot;_x&quot;:0,&quot;_y&quot;:0,&quot;product&quot;:&quot;Service&quot;,&quot;year&quot;:2001,&quot;international&quot;:0,&quot;value&quot;:44,&quot;y0&quot;:0,&quot;y1&quot;:44}" d="M0,0h33v30h-33Z" fill="#A0C7DA" opacity="1"></path>
+                                    <path id="mark4001" class="mark element0 rectangle" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;element0&quot;,&quot;_x&quot;:33,&quot;_y&quot;:0,&quot;product&quot;:&quot;Service&quot;,&quot;year&quot;:2001,&quot;international&quot;:1,&quot;value&quot;:97,&quot;y0&quot;:44,&quot;y1&quot;:141}" d="M33,0h73v30h-73Z" fill="#1f77b4" opacity="1"></path>
+                                    <path id="mark4002" class="mark element0 rectangle" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;element0&quot;,&quot;_x&quot;:0,&quot;_y&quot;:30,&quot;product&quot;:&quot;Service&quot;,&quot;year&quot;:2002,&quot;international&quot;:0,&quot;value&quot;:156,&quot;y0&quot;:0,&quot;y1&quot;:156}" d="M0,30h117v30h-117Z" fill="#F5B78F" opacity="1"></path>
+                                    <path id="mark4003" class="mark element0 rectangle" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;element0&quot;,&quot;_x&quot;:117,&quot;_y&quot;:30,&quot;product&quot;:&quot;Service&quot;,&quot;year&quot;:2002,&quot;international&quot;:1,&quot;value&quot;:125,&quot;y0&quot;:156,&quot;y1&quot;:281}" d="M117,30h94v30h-94Z" fill="#ff7f0e" opacity="1"></path>
+                                </g>
+                            </g>
+                        </g>
+                        <g transform="translate(0,90)">
+                            <path class="background" d="M0,0h0v0h0Z" fill="none"></path>
+                            <g>
+                                <g class="mark-rect role-mark bars">
+                                    <path id="mark6000" class="mark element2 rectangle" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;element2&quot;,&quot;_x&quot;:0,&quot;_y&quot;:0,&quot;product&quot;:&quot;Software&quot;,&quot;year&quot;:2001,&quot;international&quot;:0,&quot;value&quot;:55,&quot;y0&quot;:0,&quot;y1&quot;:55}" d="M0,0h41v30h-41Z" fill="#A0C7DA" opacity="1"></path>
+                                    <path id="mark6001" class="mark element2 rectangle" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;element2&quot;,&quot;_x&quot;:41,&quot;_y&quot;:0,&quot;product&quot;:&quot;Software&quot;,&quot;year&quot;:2001,&quot;international&quot;:1,&quot;value&quot;:87,&quot;y0&quot;:55,&quot;y1&quot;:142}" d="M41,0h66v30h-66Z" fill="#1f77b4" opacity="1"></path>
+                                    <path id="mark6002" class="mark element2 rectangle" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;element2&quot;,&quot;_x&quot;:0,&quot;_y&quot;:30,&quot;product&quot;:&quot;Software&quot;,&quot;year&quot;:2002,&quot;international&quot;:0,&quot;value&quot;:78,&quot;y0&quot;:0,&quot;y1&quot;:78}" d="M0,30h59v30h-59Z" fill="#F5B78F" opacity="1"></path>
+                                    <path id="mark6003" class="mark element2 rectangle" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;element2&quot;,&quot;_x&quot;:59,&quot;_y&quot;:30,&quot;product&quot;:&quot;Software&quot;,&quot;year&quot;:2002,&quot;international&quot;:1,&quot;value&quot;:118,&quot;y0&quot;:78,&quot;y1&quot;:196}" d="M59,30h88v30h-88Z" fill="#ff7f0e" opacity="1"></path>
+                                </g>
+                            </g>
+                        </g>
+                        <g transform="translate(0,165)">
+                            <path class="background" d="M0,0h0v0h0Z" fill="none"></path>
+                            <g>
+                                <g class="mark-rect role-mark bars">
+                                    <path id="mark8000" class="mark element4 rectangle" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;element4&quot;,&quot;_x&quot;:0,&quot;_y&quot;:0,&quot;product&quot;:&quot;Hardware&quot;,&quot;year&quot;:2001,&quot;international&quot;:0,&quot;value&quot;:100,&quot;y0&quot;:0,&quot;y1&quot;:100}" d="M0,0h75v30h-75Z" fill="#A0C7DA" opacity="1"></path>
+                                    <path id="mark8001" class="mark element4 rectangle" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;element4&quot;,&quot;_x&quot;:75,&quot;_y&quot;:0,&quot;product&quot;:&quot;Hardware&quot;,&quot;year&quot;:2001,&quot;international&quot;:1,&quot;value&quot;:167,&quot;y0&quot;:100,&quot;y1&quot;:267}" d="M75,0h125v30h-125Z" fill="#1f77b4" opacity="1"></path>
+                                    <path id="mark8002" class="mark element4 rectangle" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;element4&quot;,&quot;_x&quot;:0,&quot;_y&quot;:30,&quot;product&quot;:&quot;Hardware&quot;,&quot;year&quot;:2002,&quot;international&quot;:0,&quot;value&quot;:147,&quot;y0&quot;:0,&quot;y1&quot;:147}" d="M0,30h110v30h-110Z" fill="#F5B78F" opacity="1"></path>
+                                    <path id="mark8003" class="mark element4 rectangle" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;element4&quot;,&quot;_x&quot;:110,&quot;_y&quot;:30,&quot;product&quot;:&quot;Hardware&quot;,&quot;year&quot;:2002,&quot;international&quot;:1,&quot;value&quot;:211,&quot;y0&quot;:147,&quot;y1&quot;:358}" d="M110,30h159v30h-159Z" fill="#ff7f0e" opacity="1"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

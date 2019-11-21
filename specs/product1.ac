@@ -1,0 +1,31 @@
+{
+    "charts": [
+        {
+            "id": "p1",
+            "source": "./charts/product1.dsvg"
+        },
+        {
+            "id": "p2",
+            "source": "./charts/product2.dsvg"
+        },
+        {
+            "id": "p3",
+            "source": "./charts/product3.dsvg"
+        },
+        {
+            "id": "p4",
+            "source": "./charts/product4.dsvg"
+        }
+    ],
+    "animations": [
+        {
+            "selection": ".text, .symbol",
+            "actions": [
+                {
+                    "type": "magic move",
+                    "duration": 1000
+                }
+            ]
+        }
+    ]
+}

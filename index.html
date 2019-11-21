@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <link rel='icon' href='logo.ico' type='image/x-icon' />
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name="description" content="Animated Charts">
+    <meta name="keywords" content="Animation, Visualization, Chart">
+    <meta name="author" content="tge">
+    <title>AniChart Online Editor</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
+    <script src='js/lib/jquery-3.3.1.min.js'></script>
+    <script src='js/lib/gif.js'></script>
+    <script src='js/lib/gif.worker.js'></script>
+    <script src='js/lib/html2canvas.min.js'></script>
+    <!-- <script src='js/lib/anichart.min.js'></script> -->
+    <script src='js/lib/anichart.js'></script>
+    <script src='js/util/Util.js'></script>
+</head>
+<body>
+    <div id='renderCover' class='render-cover'>
+        <div class='loader'></div>
+    </div>
+    <div>
+        <section class='nav-container'>
+            <div class='menu-bar-left'>
+                <span class='title-span' onClick=''>
+                    <span class='cont-text'>
+                        canis
+                    </span>
+                </span>
+                <div class='circle-button'>
+                    <span class='tool-button'>
+                        <span id='renderBtn' class='tool-icon play-icon' title='play' />
+                    </span>
+                </div>
+                <div class='circle-button'>
+                    <span class='tool-button'>
+                        <span id='exportBtn' class='tool-icon export-icon' title='export' />
+                    </span>
+                </div>
+            </div>
+            <div class='menu-bar-right'>
+                <div class='circle-button'>
+                    <span class='tool-button'>
+                        <span id='help' class='question-icon tool-icon' title='help' />
+                    </span>
+                </div>
+            </div>
+        </section>
+        <section class='main-wrapper'>
+            <!-- editor -->
+            <div class='editor-outter-wrapper'>
+                <div class='editor-header'>
+                    <div class='select-wrapper'>
+                        <select id='dataSelection' class='spec-selector' title='select example'>
+                            <option value='line_1'>1.1 line: magic move across charts</option>
+                            <option value='line_2'>1.2 line: using facet</option>
+                            <option value='line_3'>1.3 line: animation in just one chart</option>
+                            <option value='line_4'>1.4 line: animation in multi charts</option>
+                            <option value='pie_1'>2.1 pie: magic move across pie charts</option>
+                            <option value='product_1'>3.1 product: magic move across bubble chart</option>
+                            <option value='product_2'>3.2 product</option>
+                            <option value='rain_1'>4.1 rain data</option>
+                            <option value='polio_1'>5.1 polio incidence rates 1950s</option>
+                            <option value='purchases_1' selected>6.1 donut purchases</option>
+                            <option value='calories_1'>7.1 calories burning data</option>
+                            <option value='calories_2'>7.2 calories burning data</option>
+                            <option value='calories_3'>7.3 calories burning data</option>
+                            <option value='gapminder_1'>8.1 life experience</option>
+                            <option value='gapminder_2'>8.2 life experience</option>
+                            <option value='gantt_1'>9.1event plan</option>
+                            <option value='weather_1'>10.1 weather of four cities</option>
+                            <option value='os_1'>11.1 mobile os market share</option>
+                            <option value='evaOs_1'>11.2 mobile no link</option>
+                            <option value='boston_1'>12.1 boston weather</option>
+                            <option value='bezierLine_1'>13.1 bezier line</option>
+                            <option value='chartType_1'>14.1 free shape transformation</option>
+                            <option value='gdp_1'>15.1 per capita GDP of G7 countries in 2018</option>
+                            <option value='polioTrans_1'>16.1 Polio incidence rates 1950 - 1953</option>
+                            <option value='demo_1'>17.1 demo</option>
+                            <option value='ranking_1'>18.1 ranking</option>
+                            <option value='mushroom_1'>19.1 mushroom</option>
+                        </select>
+                    </div>
+                </div>
+                <div id='specContainer' class='editor-inner-wrapper'></div>
+            </div>
+
+            <!-- result -->
+            <div class='result-wrapper'>
+                <div id='chartContainer' class='chart-container'></div>
+                <div id='videoContainer' class='video-container'></div>
+                <div id='controlContainer' class='control-container'>
+                    <div id='timelineContainer' class='timeline-container'>
+                        <div id='timeline' class='timeline'>
+                            <div id='track' class='track'></div>
+                            <div id='pastTime' class='past-time'></div>
+                            <div id='slider' class='video-slider'></div>
+                        </div>
+                    </div>
+                    <div id='btnContainer' class='btn-container'>
+                        <span id='currentTime'>00.00</span><span>/</span><span id='endTime'>00.00</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src='node_modules/monaco-editor/min/vs/loader.js'></script>
+    <script>
+        require.config({ paths: { 'vs': 'node_modules/monaco-editor/min/vs' } });
+        require(['vs/editor/editor.main'], function () {
+            editorValue = '';
+            let editor = monaco.editor.create(document.getElementById('specContainer'), {
+                value: '',
+                language: 'json'
+            });
+
+            //play or stop animation
+            let playing = false;
+            //current time
+            let time = 0;
+            const zeroTime = '00.00';
+
+            let gif = null;
+
+            $(function () {
+                let dataName = 'drill', specIdx = 1;
+
+                //check whether the user came from the project page
+                let thisURL = document.URL;
+                let getval = thisURL.split('?')[1];
+
+                if (typeof getval !== 'undefined') {
+                    let exmp = getval.split("=")[1].split('_');
+                    dataName = exmp[0];
+                    specIdx = exmp[1];
+                    $("#dataSelection option[value='" + exmp[0] + "_" + exmp[1] + "']").attr("selected", true);
+                }
+
+                //use the existing json to initialize the editor
+                loadJson(dataName, specIdx);
+            })
+
+            function loadJson(dataName, animationIdx, callback) {
+                $.getJSON('specs/' + dataName + animationIdx + '.ac', function (data) {
+                    let jsonStr = JSON.stringify(data, null, 2);
+                    editor.setValue(jsonStr);
+                    editorValue = jsonStr;
+                    aniChart.renderSpec(data);
+                })
+            }
+
+            //data selection
+            $('#dataSelection').change(function () {
+                let selection = $(this).children('option:selected').val().split('_');
+                let dataName = selection[0];
+                let animationIdx = selection[1];
+                loadJson(dataName, animationIdx);
+                pauseAnimation();
+                resetPlayerWidgets();
+                aniChart.reset();
+            })
+
+            //render function
+            $('#renderBtn').click(function () {
+                let currentValue = editor.getValue();
+                if (playing) {
+                    pauseAnimation();
+                } else if (editorValue === currentValue) {
+                    playAnimation();
+                } else {
+                    //reset vars
+                    resetPlayerWidgets();
+                    aniChart.reset();
+                    aniChart.renderSpec(JSON.parse(currentValue));
+                    playAnimation();
+                }
+            })
+
+            $('#playBtnContainer').click(function () {
+                if (playing) {
+                    pauseAnimation();
+                } else {
+                    playAnimation();
+                }
+            })
+
+            //timeline slider
+            $('#slider').mousedown(function () {
+                pauseAnimation();
+                $(document).mousemove(function (moveEvt) {
+                    let targetX = moveEvt.pageX - $('#track').offset().left;
+                    if (targetX >= 0 && targetX <= $('#track').width()) {
+                        $('#slider').css('margin-left', targetX - 8 + 'px');
+                        $('#pastTime').width(targetX);
+
+                        let ratio = targetX / $('#track').width();
+                        time = aniChart.duration() * ratio;
+                        time = parseInt(time / (1000 / aniChart.frameRate)) * (1000 / aniChart.frameRate);
+                        aniChart.renderFrame(0);
+                        aniChart.renderFrame(time);
+                        $('#currentTime').text(Util.formatTime(time));
+                    }
+                })
+                $(document).mouseup(function (moveEvt) {
+                    $(document).unbind('mousemove');
+                    $(document).unbind('mouseup');
+                })
+            })
+
+            $('#track, #pastTime').click(function (downEvt) {
+                pauseAnimation();
+                let targetX = downEvt.pageX - $('#track').offset().left;
+                $('#slider').css('margin-left', targetX - 8 + 'px');
+                $('#pastTime').width(targetX);
+
+                let ratio = targetX / $('#track').width();
+                time = aniChart.duration() * ratio;
+                time = parseInt(time / (1000 / aniChart.frameRate)) * (1000 / aniChart.frameRate);
+                aniChart.renderFrame(0);
+                aniChart.renderFrame(time);
+                $('#currentTime').text(Util.formatTime(time));
+            })
+
+            let animationInterval;
+            function playAnimation() {
+                if ($('#endTime').text() === zeroTime) {
+                    $('#endTime').text(Util.formatTime(aniChart.duration()));
+                }
+                $('#renderBtn').attr('title', 'pause');
+                $('#renderBtn').removeClass('play-icon');
+                $('#renderBtn').addClass('stop-icon');
+                playing = true;
+
+                animationInterval = setInterval(() => {
+                    //set timeline controler
+                    let ratio = time / aniChart.duration();
+                    $('#pastTime').width($('#track').width() * ratio);
+                    $('#slider').css('margin-left', $('#track').width() * ratio - 8 + 'px');
+                    $('#currentTime').text(Util.formatTime(time));
+
+                    //render this frame
+                    time = parseInt(time / (1000 / aniChart.frameRate)) * (1000 / aniChart.frameRate);
+                    let locatedFrame = aniChart.renderFrame(time);
+
+                    if (gif) {
+                        html2canvas(document.querySelector('#videoContainer')).then(function (tmpCanvas) {
+                            if (gif)
+                                gif.addFrame(tmpCanvas, { 'delay': 1000 / aniChart.frameRate });
+                        }).then(function () {
+                            time += 1000 / aniChart.frameRate;
+                            if (time > aniChart.duration() || !locatedFrame) {
+                                pauseAnimation();
+                                time = 0;
+                                if (gif) {
+                                    gif.on('finished', function (blob) {
+                                        window.open(URL.createObjectURL(blob));
+                                        $('#renderCover').hide();
+                                        pauseAnimation();
+                                        time = 0;
+                                    });
+                                    gif.render();
+                                    gif = null;
+                                }
+                            }
+                        });
+                    } else {
+                        time += 1000 / aniChart.frameRate;
+                        if (time > aniChart.duration() || !locatedFrame) {
+                            pauseAnimation();
+                            time = 0;
+                        }
+                    }
+                }, 1000 / aniChart.frameRate);
+            }
+
+            function pauseAnimation() {
+                $('#renderBtn').attr('title', 'play');
+                $('#renderBtn').removeClass('stop-icon');
+                $('#renderBtn').addClass('play-icon');
+                playing = false;
+
+                clearInterval(animationInterval);
+                animationInterval = 'undefined';
+            }
+
+            $('#exportBtn').click(function () {
+                resetPlayerWidgets(false);
+                $('#renderCover').show();
+                playAnimation();
+
+                gif = new GIF({
+                    workers: 4,
+                    // repeat: -1,
+                    quality: 2,
+                    workerScript: './js/lib/gif.worker.js'
+                })
+            });
+
+            /**
+             * @param {boolean} endTime: whether to reset endtime or not
+             */
+            function resetPlayerWidgets(endTime = true) {
+                time = 0;
+                $('#slider').css('margin-left', '-8px');
+                $('#pastTime').width(0);
+                $('#currentTime').text(zeroTime);
+                if (endTime) {
+                    $('#endTime').text(zeroTime);
+                }
+            }
+
+            $('#help').click(() => window.location.href = 'http://www.njvis.net/AniChartWeb/tutorial.html');
+        });
+
+
+
+    </script>
+</body>
+
+</html>

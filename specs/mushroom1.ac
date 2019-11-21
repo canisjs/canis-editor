@@ -1,0 +1,20 @@
+{
+  "charts": [
+    {"source": "./charts/charticulator/mushrooms.dsvg"}
+  ],
+  "animations": [
+   {
+      "selection": ".symbol",
+      "grouping": {
+        "groupBy": "id",
+        "reference": "start after previous"
+      },
+      "actions": [
+        {
+          "type": "fade",
+          "duration": 600
+        }
+      ]
+    }
+  ]
+}

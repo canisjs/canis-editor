@@ -1,0 +1,139 @@
+<svg id="visChart" x="0" y="0" width="900" height="450" viewBox="0 0 900.000000 600.000000" 
+    xmlns="http://www.w3.org/2000/svg" 
+    xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" data-reactroot="">
+    <g id="chartContent" transform="translate(450.000000,300.000000)">
+        <g transform="translate(0,0)" style="opacity:1" class="">
+            <g transform="translate(0,0)" style="opacity:1" class=""></g>
+            <g transform="translate(0,0)" style="opacity:1" class="">
+                <g transform="translate(0,0)" style="opacity:1" class="">
+                    <g transform="translate(0,0)" style="opacity:1" class="">
+                        <g transform="translate(0,0)" style="opacity:1" class=""></g>
+                        <g transform="translate(0,0)" style="opacity:1" class="">
+                            <g transform="translate(0,0)" style="opacity:1" class="">
+                                <g transform="translate(-267.18826406,-220)" style="opacity:1" id="mark1" class="mark DataAxis1 data-axis" data-datum="{&quot;_TYPE&quot;:&quot;data-axis&quot;,&quot;_MARKID&quot;:&quot;DataAxis1&quot;,&quot;_x&quot;:66.40586799250127,&quot;_y&quot;:193.56250000000796,&quot;_id&quot;:&quot;0&quot;,&quot;event&quot;:&quot;event planning&quot;,&quot;start&quot;:1,&quot;end&quot;:4}">
+                                    <path id="mark1001" class=" mark axis-domain" style="stroke:rgb(0,0,0);stroke-opacity:1;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;fill:none;fill-opacity:1;text-anchor:start;opacity:1" d="M 0,0 L 667.18749426,0.00369647" data-datum="{&quot;_TYPE&quot;:&quot;axis-domain&quot;}"></path>
+                                    <path id="mark2001" class=" mark axis-tick" style="stroke:rgb(0,0,0);stroke-opacity:1;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;fill:none;fill-opacity:1;text-anchor:start;opacity:1" d="M 0,0 L 0.00016552,-4.99509431" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;,&quot;text&quot;:&quot;0&quot;}"></path>
+                                    <path id="mark2002" class=" mark axis-tick" style="stroke:rgb(0,0,0);stroke-opacity:1;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;fill:none;fill-opacity:1;text-anchor:start;opacity:1" d="M 74.13202934,0 L 74.13120719,-5.00287368" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;,&quot;text&quot;:&quot;2&quot;}"></path>
+                                    <path id="mark2003" class=" mark axis-tick" style="stroke:rgb(0,0,0);stroke-opacity:1;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;fill:none;fill-opacity:1;text-anchor:start;opacity:1" d="M 148.26405869,0 L 148.26652645,-4.99805522" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;,&quot;text&quot;:&quot;4&quot;}"></path>
+                                    <path id="mark2004" class=" mark axis-tick" style="stroke:rgb(0,0,0);stroke-opacity:1;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;fill:none;fill-opacity:1;text-anchor:start;opacity:1" d="M 222.39608803,0 L 222.39195087,-4.9982092" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;,&quot;text&quot;:&quot;6&quot;}"></path>
+                                    <path id="mark2005" class=" mark axis-tick" style="stroke:rgb(0,0,0);stroke-opacity:1;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;fill:none;fill-opacity:1;text-anchor:start;opacity:1" d="M 296.52811738,0 L 296.52921021,-4.99757624" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;,&quot;text&quot;:&quot;8&quot;}"></path>
+                                    <path id="mark2006" class=" mark axis-tick" style="stroke:rgb(0,0,0);stroke-opacity:1;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;fill:none;fill-opacity:1;text-anchor:start;opacity:1" d="M 370.66014672,0 L 370.66447106,-5.0047092" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;,&quot;text&quot;:&quot;10&quot;}"></path>
+                                    <path id="mark2007" class=" mark axis-tick" style="stroke:rgb(0,0,0);stroke-opacity:1;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;fill:none;fill-opacity:1;text-anchor:start;opacity:1" d="M 444.79217607,0 L 444.79114607,-4.99830044" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;,&quot;text&quot;:&quot;12&quot;}"></path>
+                                    <path id="mark2008" class=" mark axis-tick" style="stroke:rgb(0,0,0);stroke-opacity:1;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;fill:none;fill-opacity:1;text-anchor:start;opacity:1" d="M 518.92420541,0 L 518.9250174,-5.00210712" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;,&quot;text&quot;:&quot;14&quot;}"></path>
+                                    <path id="mark2009" class=" mark axis-tick" style="stroke:rgb(0,0,0);stroke-opacity:1;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;fill:none;fill-opacity:1;text-anchor:start;opacity:1" d="M 593.05623476,0 L 593.05975747,-4.99946696" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;,&quot;text&quot;:&quot;16&quot;}"></path>
+                                    <path id="mark2010" class=" mark axis-tick" style="stroke:rgb(0,0,0);stroke-opacity:1;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;fill:none;fill-opacity:1;text-anchor:start;opacity:1" d="M 667.1882641,0 L 667.18503803,-4.99547827" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;,&quot;text&quot;:&quot;18&quot;}"></path>
+                                    <path id="mark1002" class=" mark axis-domain" style="stroke:rgb(0,0,0);stroke-opacity:1;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;fill:none;fill-opacity:1;text-anchor:start;opacity:1" d="M 0,0 L -0.00372135,-5.00235725" data-datum="{&quot;_TYPE&quot;:&quot;axis-domain&quot;}"></path>
+                                    <path id="mark1003" class=" mark axis-domain" style="stroke:rgb(0,0,0);stroke-opacity:1;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;fill:none;fill-opacity:1;text-anchor:start;opacity:1" d="M 667.1882641,0 L 667.18347731,-5.00402963" data-datum="{&quot;_TYPE&quot;:&quot;axis-domain&quot;}"></path>
+                                    <g transform="translate(0,-8)" style="opacity:1" class="">
+                                        <text id="mark3001" class=" mark axis-label" style="stroke:none;stroke-opacity:1;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;fill:rgb(0,0,0);fill-opacity:1;text-anchor:start;opacity:1;font-family:Arial;font-size:12px" x="-3.3369140625" y="-2.536377402446127" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;0&quot;}">0</text>
+                                    </g>
+                                    <g transform="translate(74.13202934,-8)" style="opacity:1" class="">
+                                        <text id="mark3002" class=" mark axis-label" style="stroke:none;stroke-opacity:1;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;fill:rgb(0,0,0);fill-opacity:1;text-anchor:start;opacity:1;font-family:Arial;font-size:12px" x="-3.3369140625" y="-2.536377402446127" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;2&quot;}">2</text>
+                                    </g>
+                                    <g transform="translate(148.26405869,-8)" style="opacity:1" class="">
+                                        <text id="mark3003" class=" mark axis-label" style="stroke:none;stroke-opacity:1;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;fill:rgb(0,0,0);fill-opacity:1;text-anchor:start;opacity:1;font-family:Arial;font-size:12px" x="-3.3369140625" y="-2.536377402446127" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;4&quot;}">4</text>
+                                    </g>
+                                    <g transform="translate(222.39608803,-8)" style="opacity:1" class="">
+                                        <text id="mark3004" class=" mark axis-label" style="stroke:none;stroke-opacity:1;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;fill:rgb(0,0,0);fill-opacity:1;text-anchor:start;opacity:1;font-family:Arial;font-size:12px" x="-3.3369140625" y="-2.536377402446127" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;6&quot;}">6</text>
+                                    </g>
+                                    <g transform="translate(296.52811738,-8)" style="opacity:1" class="">
+                                        <text id="mark3005" class=" mark axis-label" style="stroke:none;stroke-opacity:1;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;fill:rgb(0,0,0);fill-opacity:1;text-anchor:start;opacity:1;font-family:Arial;font-size:12px" x="-3.3369140625" y="-2.536377402446127" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;8&quot;}">8</text>
+                                    </g>
+                                    <g transform="translate(370.66014672,-8)" style="opacity:1" class="">
+                                        <text id="mark3006" class=" mark axis-label" style="stroke:none;stroke-opacity:1;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;fill:rgb(0,0,0);fill-opacity:1;text-anchor:start;opacity:1;font-family:Arial;font-size:12px" x="-6.673828125" y="-2.536377402446127" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;10&quot;}">10</text>
+                                    </g>
+                                    <g transform="translate(444.79217607,-8)" style="opacity:1" class="">
+                                        <text id="mark3007" class=" mark axis-label" style="stroke:none;stroke-opacity:1;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;fill:rgb(0,0,0);fill-opacity:1;text-anchor:start;opacity:1;font-family:Arial;font-size:12px" x="-6.673828125" y="-2.536377402446127" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;12&quot;}">12</text>
+                                    </g>
+                                    <g transform="translate(518.92420541,-8)" style="opacity:1" class="">
+                                        <text id="mark3008" class=" mark axis-label" style="stroke:none;stroke-opacity:1;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;fill:rgb(0,0,0);fill-opacity:1;text-anchor:start;opacity:1;font-family:Arial;font-size:12px" x="-6.673828125" y="-2.536377402446127" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;14&quot;}">14</text>
+                                    </g>
+                                    <g transform="translate(593.05623476,-8)" style="opacity:1" class="">
+                                        <text id="mark3009" class=" mark axis-label" style="stroke:none;stroke-opacity:1;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;fill:rgb(0,0,0);fill-opacity:1;text-anchor:start;opacity:1;font-family:Arial;font-size:12px" x="-6.673828125" y="-2.536377402446127" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;16&quot;}">16</text>
+                                    </g>
+                                    <g transform="translate(667.1882641,-8)" style="opacity:1" class="">
+                                        <text id="mark3010" class=" mark axis-label" style="stroke:none;stroke-opacity:1;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;fill:rgb(0,0,0);fill-opacity:1;text-anchor:start;opacity:1;font-family:Arial;font-size:12px" x="-6.673828125" y="-2.536377402446127" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;18&quot;}">18</text>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                        <g transform="translate(0,0)" style="opacity:1" class="">
+                            <g transform="translate(0,0)" style="opacity:1" class="">
+                                <rect id="mark4001" class=" mark Shape1 rectangle" style="stroke:none;stroke-opacity:1;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;fill:rgb(166,206,227);fill-opacity:1;text-anchor:start;opacity:1;cursor:pointer;pointer-events:all" x="-230.12224938632767" y="-220.00000000000847" width="111.19804401706085" height="52.87500000000102" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:66.40586799250127,&quot;_y&quot;:193.56250000000796,&quot;_id&quot;:&quot;0&quot;,&quot;event&quot;:&quot;event planning&quot;,&quot;start&quot;:1,&quot;end&quot;:4,&quot;duration&quot;:3}"></rect>
+                            </g>
+                            <g transform="translate(0,0)" style="opacity:1" class="">
+                                <rect id="mark4002" class=" mark Shape1 rectangle" style="stroke:none;stroke-opacity:1;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;fill:rgb(31,120,180);fill-opacity:1;text-anchor:start;opacity:1;cursor:pointer;pointer-events:all" x="-155.99022004162046" y="-160.41071428572167" width="370.6601467235362" height="52.87500000000104" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:66.40586799250127,&quot;_y&quot;:133.97321428572116,&quot;_id&quot;:&quot;1&quot;,&quot;event&quot;:&quot;layout logistics&quot;,&quot;start&quot;:3,&quot;end&quot;:13,&quot;duration&quot;:10}"></rect>
+                            </g>
+                            <g transform="translate(0,0)" style="opacity:1" class="">
+                                <rect id="mark4003" class=" mark Shape1 rectangle" style="stroke:none;stroke-opacity:1;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;fill:rgb(178,223,138);fill-opacity:1;text-anchor:start;opacity:1;cursor:pointer;pointer-events:all" x="-81.8581906969132" y="-100.82142857143494" width="111.19804401706084" height="52.87500000000105" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:66.40586799250127,&quot;_y&quot;:74.38392857143441,&quot;_id&quot;:&quot;2&quot;,&quot;event&quot;:&quot;select vendors&quot;,&quot;start&quot;:5,&quot;end&quot;:8,&quot;duration&quot;:3}"></rect>
+                            </g>
+                            <g transform="translate(0,0)" style="opacity:1" class="">
+                                <rect id="mark4004" class=" mark Shape1 rectangle" style="stroke:none;stroke-opacity:1;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;fill:rgb(51,160,44);fill-opacity:1;text-anchor:start;opacity:1;cursor:pointer;pointer-events:all" x="66.40586799250127" y="-41.23214285714813" width="148.26405868941376" height="52.87500000000105" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:66.40586799250127,&quot;_y&quot;:14.794642857147608,&quot;_id&quot;:&quot;3&quot;,&quot;event&quot;:&quot;hire venue&quot;,&quot;start&quot;:9,&quot;end&quot;:13,&quot;duration&quot;:4}"></rect>
+                            </g>
+                            <g transform="translate(0,0)" style="opacity:1" class="">
+                                <rect id="mark4005" class=" mark Shape1 rectangle" style="stroke:none;stroke-opacity:1;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;fill:rgb(251,154,153);fill-opacity:1;text-anchor:start;opacity:1;cursor:pointer;pointer-events:all" x="103.4718826648549" y="18.357142857138612" width="148.26405868941447" height="52.87500000000105" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:66.40586799250127,&quot;_y&quot;:-44.79464285713914,&quot;_id&quot;:&quot;4&quot;,&quot;event&quot;:&quot;hire caterer&quot;,&quot;start&quot;:10,&quot;end&quot;:14,&quot;duration&quot;:4}"></rect>
+                            </g>
+                            <g transform="translate(0,0)" style="opacity:1" class="">
+                                <rect id="mark4006" class=" mark Shape1 rectangle" style="stroke:none;stroke-opacity:1;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;fill:rgb(227,26,28);fill-opacity:1;text-anchor:start;opacity:1;cursor:pointer;pointer-events:all" x="177.6039120095621" y="77.94642857142541" width="185.33007336176811" height="52.87500000000104" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:66.40586799250127,&quot;_y&quot;:-104.38392857142594,&quot;_id&quot;:&quot;5&quot;,&quot;event&quot;:&quot;hire event decorators&quot;,&quot;start&quot;:12,&quot;end&quot;:17,&quot;duration&quot;:5}"></rect>
+                            </g>
+                            <g transform="translate(0,0)" style="opacity:1" class="">
+                                <rect id="mark4007" class=" mark Shape1 rectangle" style="stroke:none;stroke-opacity:1;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;fill:rgb(253,191,111);fill-opacity:1;text-anchor:start;opacity:1;cursor:pointer;pointer-events:all" x="251.73594135426936" y="137.53571428571217" width="74.13202934470718" height="52.87500000000102" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:66.40586799250127,&quot;_y&quot;:-163.9732142857127,&quot;_id&quot;:&quot;6&quot;,&quot;event&quot;:&quot;rehearsal&quot;,&quot;start&quot;:14,&quot;end&quot;:16,&quot;duration&quot;:2}"></rect>
+                            </g>
+                            <g transform="translate(0,0)" style="opacity:1" class="">
+                                <rect id="mark4008" class=" mark Shape1 rectangle" style="stroke:none;stroke-opacity:1;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;fill:rgb(255,127,0);fill-opacity:1;text-anchor:start;opacity:1;cursor:pointer;pointer-events:all" x="362.9339853713302" y="197.12499999999898" width="37.06601467235362" height="52.87500000000102" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:66.40586799250127,&quot;_y&quot;:-223.5624999999995,&quot;_id&quot;:&quot;7&quot;,&quot;event&quot;:&quot;event celebration&quot;,&quot;start&quot;:17,&quot;end&quot;:18,&quot;duration&quot;:1}"></rect>
+                            </g>
+                        </g>
+                        <g transform="translate(0,0)" style="opacity:1" class="">
+                            <g transform="translate(0,0)" style="opacity:1" class="">
+                                <g transform="translate(-267.18826406,-193.5625)" style="opacity:1" class="">
+                                    <text id="mark5001" class=" mark Text1 text" style="stroke:none;stroke-opacity:1;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;fill:rgb(166,206,227);fill-opacity:1;text-anchor:start;opacity:1;font-family:Arial;font-size:14px" x="-130.44496944010302" y="4.622795573675017" data-datum="{&quot;_TYPE&quot;:&quot;text&quot;,&quot;_MARKID&quot;:&quot;Text1&quot;,&quot;_x&quot;:66.40586799250127,&quot;_y&quot;:193.56250000000796,&quot;_id&quot;:&quot;0&quot;,&quot;event&quot;:&quot;event planning&quot;,&quot;start&quot;:1,&quot;end&quot;:4,&quot;duration&quot;:3}">event planning</text>
+                                </g>
+                            </g>
+                            <g transform="translate(0,0)" style="opacity:1" class="">
+                                <g transform="translate(-267.18826406,-133.97321429)" style="opacity:1" class="">
+                                    <text id="mark5002" class=" mark Text1 text" style="stroke:none;stroke-opacity:1;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;fill:rgb(31,120,180);fill-opacity:1;text-anchor:start;opacity:1;font-family:Arial;font-size:14px" x="-130.41078975260302" y="4.622795573675017" data-datum="{&quot;_TYPE&quot;:&quot;text&quot;,&quot;_MARKID&quot;:&quot;Text1&quot;,&quot;_x&quot;:66.40586799250127,&quot;_y&quot;:133.97321428572116,&quot;_id&quot;:&quot;1&quot;,&quot;event&quot;:&quot;layout logistics&quot;,&quot;start&quot;:3,&quot;end&quot;:13,&quot;duration&quot;:10}">layout logistics</text>
+                                </g>
+                            </g>
+                            <g transform="translate(0,0)" style="opacity:1" class="">
+                                <g transform="translate(-267.18826406,-74.38392857)" style="opacity:1" class="">
+                                    <text id="mark5003" class=" mark Text1 text" style="stroke:none;stroke-opacity:1;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;fill:rgb(178,223,138);fill-opacity:1;text-anchor:start;opacity:1;font-family:Arial;font-size:14px" x="-129.63832881510302" y="4.622795573675017" data-datum="{&quot;_TYPE&quot;:&quot;text&quot;,&quot;_MARKID&quot;:&quot;Text1&quot;,&quot;_x&quot;:66.40586799250127,&quot;_y&quot;:74.38392857143441,&quot;_id&quot;:&quot;2&quot;,&quot;event&quot;:&quot;select vendors&quot;,&quot;start&quot;:5,&quot;end&quot;:8,&quot;duration&quot;:3}">select vendors</text>
+                                </g>
+                            </g>
+                            <g transform="translate(0,0)" style="opacity:1" class="">
+                                <g transform="translate(-267.18826406,-14.79464286)" style="opacity:1" class="">
+                                    <text id="mark5004" class=" mark Text1 text" style="stroke:none;stroke-opacity:1;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;fill:rgb(51,160,44);fill-opacity:1;text-anchor:start;opacity:1;font-family:Arial;font-size:14px" x="-104.74868037760304" y="4.622795573675017" data-datum="{&quot;_TYPE&quot;:&quot;text&quot;,&quot;_MARKID&quot;:&quot;Text1&quot;,&quot;_x&quot;:66.40586799250127,&quot;_y&quot;:14.794642857147608,&quot;_id&quot;:&quot;3&quot;,&quot;event&quot;:&quot;hire venue&quot;,&quot;start&quot;:9,&quot;end&quot;:13,&quot;duration&quot;:4}">hire venue</text>
+                                </g>
+                            </g>
+                            <g transform="translate(0,0)" style="opacity:1" class="">
+                                <g transform="translate(-267.18826406,44.79464286)" style="opacity:1" class="">
+                                    <text id="mark5005" class=" mark Text1 text" style="stroke:none;stroke-opacity:1;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;fill:rgb(251,154,153);fill-opacity:1;text-anchor:start;opacity:1;font-family:Arial;font-size:14px" x="-110.17641475260304" y="4.622795573675017" data-datum="{&quot;_TYPE&quot;:&quot;text&quot;,&quot;_MARKID&quot;:&quot;Text1&quot;,&quot;_x&quot;:66.40586799250127,&quot;_y&quot;:-44.79464285713914,&quot;_id&quot;:&quot;4&quot;,&quot;event&quot;:&quot;hire caterer&quot;,&quot;start&quot;:10,&quot;end&quot;:14,&quot;duration&quot;:4}">hire caterer</text>
+                                </g>
+                            </g>
+                            <g transform="translate(0,0)" style="opacity:1" class="">
+                                <g transform="translate(-267.18826406,104.38392857)" style="opacity:1" class="">
+                                    <text id="mark5006" class=" mark Text1 text" style="stroke:none;stroke-opacity:1;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;fill:rgb(227,26,28);fill-opacity:1;text-anchor:start;opacity:1;font-family:Arial;font-size:14px" x="-170.88637569010302" y="4.622795573675017" data-datum="{&quot;_TYPE&quot;:&quot;text&quot;,&quot;_MARKID&quot;:&quot;Text1&quot;,&quot;_x&quot;:66.40586799250127,&quot;_y&quot;:-104.38392857142594,&quot;_id&quot;:&quot;5&quot;,&quot;event&quot;:&quot;hire event decorators&quot;,&quot;start&quot;:12,&quot;end&quot;:17,&quot;duration&quot;:5}">hire event decorators</text>
+                                </g>
+                            </g>
+                            <g transform="translate(0,0)" style="opacity:1" class="">
+                                <g transform="translate(-267.18826406,163.97321429)" style="opacity:1" class="">
+                                    <text id="mark5007" class=" mark Text1 text" style="stroke:none;stroke-opacity:1;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;fill:rgb(253,191,111);fill-opacity:1;text-anchor:start;opacity:1;font-family:Arial;font-size:14px" x="-97.73500850260304" y="4.622795573675017" data-datum="{&quot;_TYPE&quot;:&quot;text&quot;,&quot;_MARKID&quot;:&quot;Text1&quot;,&quot;_x&quot;:66.40586799250127,&quot;_y&quot;:-163.9732142857127,&quot;_id&quot;:&quot;6&quot;,&quot;event&quot;:&quot;rehearsal&quot;,&quot;start&quot;:14,&quot;end&quot;:16,&quot;duration&quot;:2}">rehearsal</text>
+                                </g>
+                            </g>
+                            <g transform="translate(0,0)" style="opacity:1" class="">
+                                <g transform="translate(-267.18826406,223.5625)" style="opacity:1" class="">
+                                    <text id="mark5008" class=" mark Text1 text" style="stroke:none;stroke-opacity:1;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;fill:rgb(255,127,0);fill-opacity:1;text-anchor:start;opacity:1;font-family:Arial;font-size:14px" x="-145.99672725260302" y="4.622795573675017" data-datum="{&quot;_TYPE&quot;:&quot;text&quot;,&quot;_MARKID&quot;:&quot;Text1&quot;,&quot;_x&quot;:66.40586799250127,&quot;_y&quot;:-223.5624999999995,&quot;_id&quot;:&quot;7&quot;,&quot;event&quot;:&quot;event celebration&quot;,&quot;start&quot;:17,&quot;end&quot;:18,&quot;duration&quot;:1}">event celebration</text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g transform="translate(0,0)" style="opacity:1" class=""></g>
+                </g>
+            </g>
+            <g transform="translate(0,0)" style="opacity:1" class="">
+                <g transform="translate(66.40586797,-300)" style="opacity:1" class="">
+                    <text class="" style="stroke:none;stroke-opacity:1;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;fill:rgb(0,0,0);fill-opacity:1;text-anchor:start;opacity:1;font-family:Arial;font-size:24px" x="-164.70306292023227" y="37.563048075266316">event plan gantt chart</text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,45 @@
+{
+  "charts": [
+    {
+            "id": "line1",
+            "source": "./charts/line1.dsvg"
+        },
+        {
+            "id": "line2",
+            "source": "./charts/line2.dsvg"
+        },
+        {
+            "id": "line3",
+            "source": "./charts/line3.dsvg"
+        },
+        {
+            "id": "line4",
+            "source": "./charts/line4.dsvg"
+        }
+  ],
+  "animations": [
+   {
+      "selection": ".symbol",
+      "grouping": {
+        "groupBy": "id",
+        "reference": "start after previous"
+      },
+      "actions": [
+        {
+          "type": "fade",
+          "duration": 600
+        }
+      ]
+    },
+    {
+      "selection": ".link",
+      "offsetReference":"start after previous",
+      "actions": [
+        {
+          "type": "grow",
+          "duration": 600
+        }
+      ]
+    }
+  ]
+}

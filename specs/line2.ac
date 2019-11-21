@@ -1,0 +1,27 @@
+{
+    "charts": [
+        {
+            "source": "./charts/line",
+            "start": 1,
+            "end": 4
+        }
+    ],
+    "facet": {
+        "type": "column",
+        "views":[
+            {"range": ["line1", "line4"]},
+            {"frames": ["line3", "line4", "line2"]}
+        ]
+    },
+    "animations": [
+        {
+            "selection": ".link, .symbol",
+            "actions": [
+                {
+                    "type": "magic move",
+                    "duration": 1000
+                }
+            ]
+        }
+    ]
+}

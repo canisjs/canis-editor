@@ -1,0 +1,23 @@
+{
+    "charts": [
+        {
+            "id": "line1",
+            "source": "./charts/vega/bezierLine1.dsvg"
+        },
+        {
+            "id": "line2",
+            "source": "./charts/vega/bezierLine2.dsvg"
+        }
+    ],
+    "animations": [
+        {
+            "selection": ".path",
+            "actions": [
+                {
+                    "type": "magic move",
+                    "duration": 1000
+                }
+            ]
+        }
+    ]
+}

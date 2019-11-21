@@ -1,0 +1,31 @@
+{
+    "charts": [
+        {
+            "id": "pie1",
+            "source": "./charts/pie1.dsvg"
+        },
+        {
+            "id": "pie2",
+            "source": "./charts/pie2.dsvg"
+        },
+        {
+            "id": "pie3",
+            "source": "./charts/pie3.dsvg"
+        },
+        {
+            "id": "pie4",
+            "source": "./charts/pie4.dsvg"
+        }
+    ],
+    "animations": [
+        {
+            "selection": ".wedge",
+            "actions": [
+                {
+                    "type": "magic move",
+                    "duration": 1000
+                }
+            ]
+        }
+    ]
+}

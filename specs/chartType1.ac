@@ -1,0 +1,21 @@
+{
+    "charts": [
+        {
+            "source": "./charts/vega/charttype1.dsvg"
+        },
+        {
+            "source": "./charts/vega/charttype2.dsvg"
+        }
+    ],
+    "animations": [
+        {
+            "selection": ".element0",
+            "actions": [
+                {
+                    "type": "magic move",
+                    "duration": 1000
+                }
+            ]
+        }
+    ]
+}

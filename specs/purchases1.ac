@@ -1,0 +1,62 @@
+{
+    "charts": [
+        {
+            "source": "./charts/charticulator/purchases.dsvg"
+        }
+    ],
+    "animations": [
+        {
+            "selection": ".axis-domain",
+            "actions": [
+                {
+                    "type": "grow",
+                    "duration": 1000
+                }
+            ]
+        },
+        {
+            "selection": ".axis-tick, .axis-label",
+            "grouping": {
+                "groupBy": "id",
+                "delay": 100
+            },
+            "actions": [
+                {
+                    "type": "fade",
+                    "duration": 600
+                }
+            ]
+        },
+        {
+            "reference": "start after previous",
+            "selection": ".symbol, .text",
+            "grouping": {
+                "groupBy": "year",
+                "reference": "start after previous",
+                "delay": 600
+            },
+            "actions": [
+                {
+                    "type": "fade",
+                    "duration": 200
+                }
+            ]
+        },
+        {
+            "offset": 200,
+            "selection": ".link",
+            "grouping": {
+                "groupBy": "id",
+                "reference": "start after previous",
+                "delay": 200
+            },
+            "actions": [
+                {
+                    "type": "grow",
+                    "easing": "easeOutCubic",
+                    "duration": 600
+                }
+            ]
+        }
+    ]
+}

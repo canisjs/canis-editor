@@ -1,0 +1,63 @@
+<svg id="visChart" x="0" y="0" width="900" height="450" viewBox="0 0 900.000000 600.000000" 
+    xmlns="http://www.w3.org/2000/svg" 
+    xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" data-reactroot="">
+    <g id="chartContent" transform="translate(450.000000,300.000000)">
+        <g transform="translate(0,0)" style="opacity:1" class="">
+            <g transform="translate(0,0)" style="opacity:1" class=""></g>
+            <g transform="translate(0,0)" style="opacity:1" class="">
+                <g transform="translate(0,0)" style="opacity:1" class="">
+                    <g transform="translate(-25,15)" style="opacity:1" class="">
+                        <g transform="translate(0,0)" style="opacity:1" class=""></g>
+                        <g transform="translate(0,0)" style="opacity:1" class="">
+                            <g transform="translate(0,0)" style="opacity:1" class="">
+                                <path id="mark1" class=" mark Shape1 wedge" style="stroke:none;stroke-opacity:1;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;fill:rgb(166,206,227);fill-opacity:1;text-anchor:start;opacity:1;cursor:pointer;pointer-events:all" d="M 0,0 L 0,-211.49777004 A 211.49777004,211.49777004,0,0,1,201.14693465,65.35455161 L 0,0 Z" data-datum="{&quot;_TYPE&quot;:&quot;wedge&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:28.999736004223934,&quot;_y&quot;:90.74888502229955,&quot;name&quot;:&quot;cat&quot;,&quot;share&quot;:30}"></path>
+                            </g>
+                            <g transform="translate(0,0)" style="opacity:1" class="">
+                                <path id="mark2" class=" mark Shape1 wedge" style="stroke:none;stroke-opacity:1;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;fill:rgb(31,120,180);fill-opacity:1;text-anchor:start;opacity:1;cursor:pointer;pointer-events:all" d="M 0,0 L 201.14693465,65.35455161 A 211.49777004,211.49777004,0,0,1,-201.14492704,65.36073027 L 0,0 Z" data-datum="{&quot;_TYPE&quot;:&quot;wedge&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:154.99912001407978,&quot;_y&quot;:90.74888502229955,&quot;name&quot;:&quot;dog&quot;,&quot;share&quot;:40}"></path>
+                            </g>
+                            <g transform="translate(0,0)" style="opacity:1" class="">
+                                <path id="mark3" class=" mark Shape1 wedge" style="stroke:none;stroke-opacity:1;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;fill:rgb(178,223,138);fill-opacity:1;text-anchor:start;opacity:1;cursor:pointer;pointer-events:all" d="M 0,0 L -201.14492704,65.36073027 A 211.49777004,211.49777004,0,0,1,-171.10853602,-124.31080257 L 0,0 Z" data-datum="{&quot;_TYPE&quot;:&quot;wedge&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:253.99863602182364,&quot;_y&quot;:90.74888502229955,&quot;name&quot;:&quot;mouse&quot;,&quot;share&quot;:15}"></path>
+                            </g>
+                            <g transform="translate(0,0)" style="opacity:1" class="">
+                                <path id="mark4" class=" mark Shape1 wedge" style="stroke:none;stroke-opacity:1;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;fill:rgb(51,160,44);fill-opacity:1;text-anchor:start;opacity:1;cursor:pointer;pointer-events:all" d="M 0,0 L -171.10853602,-124.31080257 A 211.49777004,211.49777004,0,0,1,-124.32000038,-171.10185341 L 0,0 Z" data-datum="{&quot;_TYPE&quot;:&quot;wedge&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:289.9984600246396,&quot;_y&quot;:90.74888502229955,&quot;name&quot;:&quot;snake&quot;,&quot;share&quot;:5}"></path>
+                            </g>
+                            <g transform="translate(0,0)" style="opacity:1" class="">
+                                <path id="mark5" class=" mark Shape1 wedge" style="stroke:none;stroke-opacity:1;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;fill:rgb(251,154,153);fill-opacity:1;text-anchor:start;opacity:1;cursor:pointer;pointer-events:all" d="M 0,0 L -124.32000038,-171.10185341 A 211.49777004,211.49777004,0,0,1,-0.00649664,-211.49776994 L 0,0 Z" data-datum="{&quot;_TYPE&quot;:&quot;wedge&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:316.99832802675155,&quot;_y&quot;:90.74888502229955,&quot;name&quot;:&quot;horse&quot;,&quot;share&quot;:10}"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g transform="translate(0,0)" style="opacity:1" class=""></g>
+                </g>
+            </g>
+            <g transform="translate(0,0)" style="opacity:1" class="">
+                <g transform="translate(-25,-300)" style="opacity:1" class="">
+                    <text class="" style="stroke:none;stroke-opacity:1;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;fill:rgb(0,0,0);fill-opacity:1;text-anchor:start;opacity:1;font-family:Arial;font-size:24px" x="-41.349609375" y="51.254979615608626">animals</text>
+                </g>
+            </g>
+            <g transform="translate(0,0)" style="opacity:1" class="">
+                <g transform="translate(350,-100)" style="opacity:1" class="legend" data-datum="{&quot;_TYPE&quot;:&quot;legend&quot;,&quot;fill&quot;:&quot;name&quot;,&quot;color&quot;:&quot;name&quot;}">
+                    <g transform="translate(0,-96)" style="opacity:1" class="">
+                        <text class="" style="stroke:none;stroke-opacity:1;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;fill:rgb(0,0,0);fill-opacity:1;text-anchor:start;opacity:1;font-family:Arial;font-size:14px" x="29" y="-7.377204426324983">cat</text>
+                        <rect class="" style="stroke:none;stroke-opacity:1;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;fill:rgb(166,206,227);fill-opacity:1;text-anchor:start;opacity:1" x="8" y="-20" width="16" height="16"></rect>
+                    </g>
+                    <g transform="translate(0,-72)" style="opacity:1" class="">
+                        <text class="" style="stroke:none;stroke-opacity:1;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;fill:rgb(0,0,0);fill-opacity:1;text-anchor:start;opacity:1;font-family:Arial;font-size:14px" x="29" y="-7.377204426324983">dog</text>
+                        <rect class="" style="stroke:none;stroke-opacity:1;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;fill:rgb(31,120,180);fill-opacity:1;text-anchor:start;opacity:1" x="8" y="-20" width="16" height="16"></rect>
+                    </g>
+                    <g transform="translate(0,-48)" style="opacity:1" class="">
+                        <text class="" style="stroke:none;stroke-opacity:1;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;fill:rgb(0,0,0);fill-opacity:1;text-anchor:start;opacity:1;font-family:Arial;font-size:14px" x="29" y="-7.377204426324983">horse</text>
+                        <rect class="" style="stroke:none;stroke-opacity:1;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;fill:rgb(251,154,153);fill-opacity:1;text-anchor:start;opacity:1" x="8" y="-20" width="16" height="16"></rect>
+                    </g>
+                    <g transform="translate(0,-24)" style="opacity:1" class="">
+                        <text class="" style="stroke:none;stroke-opacity:1;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;fill:rgb(0,0,0);fill-opacity:1;text-anchor:start;opacity:1;font-family:Arial;font-size:14px" x="29" y="-7.377204426324983">mouse</text>
+                        <rect class="" style="stroke:none;stroke-opacity:1;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;fill:rgb(178,223,138);fill-opacity:1;text-anchor:start;opacity:1" x="8" y="-20" width="16" height="16"></rect>
+                    </g>
+                    <g transform="translate(0,0)" style="opacity:1" class="">
+                        <text class="" style="stroke:none;stroke-opacity:1;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;fill:rgb(0,0,0);fill-opacity:1;text-anchor:start;opacity:1;font-family:Arial;font-size:14px" x="29" y="-7.377204426324983">snake</text>
+                        <rect class="" style="stroke:none;stroke-opacity:1;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;fill:rgb(51,160,44);fill-opacity:1;text-anchor:start;opacity:1" x="8" y="-20" width="16" height="16"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

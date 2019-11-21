@@ -1,0 +1,29 @@
+{
+    "charts": [
+        {
+            "source": "./charts/charticulator/rain.dsvg"
+        }
+    ],
+    "animations": [
+        {
+            "selection": ".Shape1",
+            "actions": [
+                {
+                    "type": "fade",
+                    "duration": 1000
+                }
+            ]
+        },
+        {
+            "reference": "start after previous",
+            "selection": ".Shape2",
+            "actions": [
+                {
+                    "type": "wipe bottom",
+                    "duration": 1000,
+                    "easing": "easeOutBounce"
+                }
+            ]
+        }
+    ]
+}

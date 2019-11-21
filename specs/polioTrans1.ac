@@ -1,0 +1,26 @@
+{
+    "charts": [
+        {
+            "source": "./charts/charticulator/polio_s1.dsvg"
+        },
+        {
+            "source": "./charts/charticulator/polio_s2.dsvg"
+        }
+    ],
+    "animations": [
+        {
+            "selection": ".symbol, .text",
+            "grouping" : {
+                "groupBy" : "Year",
+                "delay": 200
+            },
+            "actions": [
+                {
+                    "type": "magic move",
+                    "easing": "easeOutCubic",
+                    "duration": 1000
+                }
+            ]
+        }
+    ]
+}

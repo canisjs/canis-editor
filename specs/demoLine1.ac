@@ -1,0 +1,19 @@
+{
+    "charts": [
+        {
+            "source": "./charts/demo/line.dsvg"
+        }
+    ],
+    "animations": [
+        {
+            "selection": ".path",
+            "actions": [
+                {
+                    "type": "grow",
+                    "easing": "easeOutQuad",
+                    "duration": 1200
+                }
+            ]
+        }
+    ]
+}

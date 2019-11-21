@@ -1,0 +1,95 @@
+<svg id="visChart" class="marks" width="434" height="238" viewBox="0 0 434 238" version="1.1" 
+    xmlns="http://www.w3.org/2000/svg" 
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g transform="translate(29,16)" id="chartContent">
+        <g class="mark-group role-frame root frame">
+            <g transform="translate(0,0)">
+                <path class="background" d="M0,0h400v200h-400Z" fill="none"></path>
+                <g>
+                    <g class="mark-group role-axis axis" data-datum="{&quot;_TYPE&quot;:&quot;axis&quot;,&quot;type&quot;:&quot;bottom&quot;,&quot;position&quot;:&quot;&quot;}">
+                        <g transform="translate(0.5,200.5)">
+                            <path class="background" d="M0,0h0v0h0Z" fill="none"></path>
+                            <g>
+                                <g class="mark-rule role-axis-tick axis-tick">
+                                    <line data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;}" transform="translate(28,0)" x2="0.0049984461215474415" y2="5.004263961800587" fill="none" stroke="#888" stroke-width="1" opacity="1"></line>
+                                    <line data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;}" transform="translate(77,0)" x2="0.0022279729499981426" y2="5.0050501356525965" fill="none" stroke="#888" stroke-width="1" opacity="1"></line>
+                                    <line data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;}" transform="translate(126,0)" x2="0.000229147363503337" y2="5.005071826005657" fill="none" stroke="#888" stroke-width="1" opacity="1"></line>
+                                    <line data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;}" transform="translate(175,0)" x2="0.0015850242068854948" y2="5.0066786480123895" fill="none" stroke="#888" stroke-width="1" opacity="1"></line>
+                                    <line data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;}" transform="translate(224,0)" x2="0.004158249982163906" y2="5.002223195994215" fill="none" stroke="#888" stroke-width="1" opacity="1"></line>
+                                    <line data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;}" transform="translate(273,0)" x2="0.00582655999668922" y2="5.009210157720499" fill="none" stroke="#888" stroke-width="1" opacity="1"></line>
+                                    <line data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;}" transform="translate(322,0)" x2="0.009709790379227687" y2="5.004507441968714" fill="none" stroke="#888" stroke-width="1" opacity="1"></line>
+                                    <line data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;}" transform="translate(371,0)" x2="0.007956906856339476" y2="5.009961673355812" fill="none" stroke="#888" stroke-width="1" opacity="1"></line>
+                                </g>
+                                <g class="mark-text role-axis-label axis-label">
+                                    <text data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;}" text-anchor="middle" transform="translate(27.5,15)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">A</text>
+                                    <text data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;}" text-anchor="middle" transform="translate(76.5,15)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">B</text>
+                                    <text data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;}" text-anchor="middle" transform="translate(125.5,15)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">C</text>
+                                    <text data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;}" text-anchor="middle" transform="translate(174.5,15)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">D</text>
+                                    <text data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;}" text-anchor="middle" transform="translate(223.5,15)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">E</text>
+                                    <text data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;}" text-anchor="middle" transform="translate(272.5,15)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">F</text>
+                                    <text data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;}" text-anchor="middle" transform="translate(321.5,15)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">G</text>
+                                    <text data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;}" text-anchor="middle" transform="translate(370.5,15)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">H</text>
+                                </g>
+                                <g class="mark-rule role-axis-domain axis-domain">
+                                    <line data-datum="{&quot;_TYPE&quot;:&quot;axis-domain&quot;}" transform="translate(0,0)" x2="400.0025022440623" y2="0.004807754476171373" fill="none" stroke="#888" stroke-width="1" opacity="1"></line>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g class="mark-group role-axis axis" data-datum="{&quot;_TYPE&quot;:&quot;axis&quot;,&quot;type&quot;:&quot;left&quot;,&quot;position&quot;:&quot;&quot;}">
+                        <g transform="translate(0.5,0.5)">
+                            <path class="background" d="M0,0h0v0h0Z" fill="none"></path>
+                            <g>
+                                <g class="mark-rule role-axis-tick axis-tick">
+                                    <line data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;}" transform="translate(0,200)" x2="-4.990144967104657" y2="0.002360926546047812" fill="none" stroke="#888" stroke-width="1" opacity="1"></line>
+                                    <line data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;}" transform="translate(0,180)" x2="-4.999990184602915" y2="0.004249270339366282" fill="none" stroke="#888" stroke-width="1" opacity="1"></line>
+                                    <line data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;}" transform="translate(0,160)" x2="-4.992032438929012" y2="0.0033234750579296435" fill="none" stroke="#888" stroke-width="1" opacity="1"></line>
+                                    <line data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;}" transform="translate(0,140)" x2="-4.998850187642899" y2="0.0024450867943944976" fill="none" stroke="#888" stroke-width="1" opacity="1"></line>
+                                    <line data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;}" transform="translate(0,120)" x2="-4.996029985815576" y2="0.003120876647829773" fill="none" stroke="#888" stroke-width="1" opacity="1"></line>
+                                    <line data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;}" transform="translate(0,100)" x2="-4.996233544004229" y2="0.002411637390975816" fill="none" stroke="#888" stroke-width="1" opacity="1"></line>
+                                    <line data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;}" transform="translate(0,80)" x2="-4.99696672551127" y2="0.0035616387949176185" fill="none" stroke="#888" stroke-width="1" opacity="1"></line>
+                                    <line data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;}" transform="translate(0,60)" x2="-4.992498681738435" y2="0.008298775327125068" fill="none" stroke="#888" stroke-width="1" opacity="1"></line>
+                                    <line data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;}" transform="translate(0,40)" x2="-4.995383355159614" y2="0.008970172740514775" fill="none" stroke="#888" stroke-width="1" opacity="1"></line>
+                                    <line data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;}" transform="translate(0,20)" x2="-4.998973786189301" y2="0.003716867239874846" fill="none" stroke="#888" stroke-width="1" opacity="1"></line>
+                                    <line data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;}" transform="translate(0,0)" x2="-4.990505906325691" y2="0.006079724093704057" fill="none" stroke="#888" stroke-width="1" opacity="1"></line>
+                                </g>
+                                <g class="mark-text role-axis-label axis-label">
+                                    <text data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;}" text-anchor="end" transform="translate(-7,203)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">0</text>
+                                    <text data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;}" text-anchor="end" transform="translate(-7,183)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">10</text>
+                                    <text data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;}" text-anchor="end" transform="translate(-7,163)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">20</text>
+                                    <text data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;}" text-anchor="end" transform="translate(-7,143)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">30</text>
+                                    <text data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;}" text-anchor="end" transform="translate(-7,123)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">40</text>
+                                    <text data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;}" text-anchor="end" transform="translate(-7,103)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">50</text>
+                                    <text data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;}" text-anchor="end" transform="translate(-7,83)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">60</text>
+                                    <text data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;}" text-anchor="end" transform="translate(-7,63)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">70</text>
+                                    <text data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;}" text-anchor="end" transform="translate(-7,43)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">80</text>
+                                    <text data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;}" text-anchor="end" transform="translate(-7,23)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">90</text>
+                                    <text data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;}" text-anchor="end" transform="translate(-7,3)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">100</text>
+                                </g>
+                                <g class="mark-rule role-axis-domain axis-domain">
+                                    <line data-datum="{&quot;_TYPE&quot;:&quot;axis-domain&quot;}" transform="translate(0,200)" x2="0.0038232565358389103" y2="-199.99764888432597" fill="none" stroke="#888" stroke-width="1" opacity="1"></line>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g class="mark-line role-mark">
+                        <path id="mark3000" class="mark element0 rectangle" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;element0&quot;,&quot;_x&quot;:5,&quot;_y&quot;:144,&quot;category&quot;:&quot;A&quot;,&quot;amount&quot;:28}" d="M5,144L54,89.99999999999999" fill="none" stroke="steelblue" stroke-width="2"></path>
+                        <path id="mark3001" class="mark element0 rectangle" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;element0&quot;,&quot;_x&quot;:54,&quot;_y&quot;:89.99999999999999,&quot;category&quot;:&quot;B&quot;,&quot;amount&quot;:55}" d="M54,89.99999999999999L103,114" fill="none" stroke="steelblue" stroke-width="2"></path>
+                        <path id="mark3002" class="mark element0 rectangle" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;element0&quot;,&quot;_x&quot;:103,&quot;_y&quot;:114,&quot;category&quot;:&quot;C&quot;,&quot;amount&quot;:43}" d="M103,114L152,18" fill="none" stroke="steelblue" stroke-width="2"></path>
+                        <path id="mark3003" class="mark element0 rectangle" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;element0&quot;,&quot;_x&quot;:152,&quot;_y&quot;:18,&quot;category&quot;:&quot;D&quot;,&quot;amount&quot;:91}" d="M152,18L201,38" fill="none" stroke="steelblue" stroke-width="2"></path>
+                        <path id="mark3004" class="mark element0 rectangle" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;element0&quot;,&quot;_x&quot;:201,&quot;_y&quot;:38,&quot;category&quot;:&quot;E&quot;,&quot;amount&quot;:81}" d="M201,38L250,94" fill="none" stroke="steelblue" stroke-width="2"></path>
+                        <path id="mark3005" class="mark element0 rectangle" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;element0&quot;,&quot;_x&quot;:250,&quot;_y&quot;:94,&quot;category&quot;:&quot;F&quot;,&quot;amount&quot;:53}" d="M250,94L299,162" fill="none" stroke="steelblue" stroke-width="2"></path>
+                        <path id="mark3006" class="mark element0 rectangle" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;element0&quot;,&quot;_x&quot;:299,&quot;_y&quot;:162,&quot;category&quot;:&quot;G&quot;,&quot;amount&quot;:19}" d="M299,162L348,26" fill="none" stroke="steelblue" stroke-width="2"></path>
+<!-- 
+
+                        <path id="mark3000" class="mark element0 path" data-datum="[{&quot;_TYPE&quot;:&quot;path&quot;,&quot;_MARKID&quot;:&quot;element0&quot;,&quot;_x&quot;:5,&quot;_y&quot;:144,&quot;category&quot;:&quot;A&quot;,&quot;amount&quot;:28},{&quot;_TYPE&quot;:&quot;path&quot;,&quot;_MARKID&quot;:&quot;element0&quot;,&quot;_x&quot;:5,&quot;_y&quot;:144,&quot;category&quot;:&quot;B&quot;,&quot;amount&quot;:55},{&quot;_TYPE&quot;:&quot;path&quot;,&quot;_MARKID&quot;:&quot;element0&quot;,&quot;_x&quot;:5,&quot;_y&quot;:144,&quot;category&quot;:&quot;C&quot;,&quot;amount&quot;:43},{&quot;_TYPE&quot;:&quot;path&quot;,&quot;_MARKID&quot;:&quot;element0&quot;,&quot;_x&quot;:5,&quot;_y&quot;:144,&quot;category&quot;:&quot;D&quot;,&quot;amount&quot;:91},{&quot;_TYPE&quot;:&quot;path&quot;,&quot;_MARKID&quot;:&quot;element0&quot;,&quot;_x&quot;:5,&quot;_y&quot;:144,&quot;category&quot;:&quot;E&quot;,&quot;amount&quot;:81},{&quot;_TYPE&quot;:&quot;path&quot;,&quot;_MARKID&quot;:&quot;element0&quot;,&quot;_x&quot;:5,&quot;_y&quot;:144,&quot;category&quot;:&quot;F&quot;,&quot;amount&quot;:53},{&quot;_TYPE&quot;:&quot;path&quot;,&quot;_MARKID&quot;:&quot;element0&quot;,&quot;_x&quot;:5,&quot;_y&quot;:144,&quot;category&quot;:&quot;G&quot;,&quot;amount&quot;:19},{&quot;_TYPE&quot;:&quot;path&quot;,&quot;_MARKID&quot;:&quot;element0&quot;,&quot;_x&quot;:5,&quot;_y&quot;:144,&quot;category&quot;:&quot;H&quot;,&quot;amount&quot;:87}]" d="M5,144L54,89.99999999999999L103,114L152,18L201,38L250,94L299,162L348,26" fill="none" stroke="steelblue" stroke-width="2"></path> -->
+
+                    </g>
+                    <g class="mark-text role-mark">
+                        <text data-datum="{&quot;_TYPE&quot;:&quot;text&quot;,&quot;_MARKID&quot;:&quot;element1&quot;,&quot;_x&quot;:null,&quot;_y&quot;:null}" text-anchor="middle" transform="translate(0,-2)" font-family="sans-serif" font-size="11px" fill="#333" fill-opacity="1"></text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

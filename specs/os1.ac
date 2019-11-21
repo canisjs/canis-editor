@@ -1,0 +1,68 @@
+{
+    "charts": [
+        {
+            "source": "./charts/charticulator/os.dsvg"
+        }
+    ],
+    "animations": [
+        {
+            "selection": ".axis-domain",
+            "actions": [
+                {
+                    "type": "grow",
+                    "duration": 1000
+                }
+            ]
+        },
+        {
+            "selection": ".axis-tick, .axis-label",
+            "actions": [
+                {
+                    "type": "fade",
+                    "duration": 1000
+                }
+            ]
+        },
+        {
+            "reference": "start after previous",
+            "selection": ".text",
+            "actions": [
+                {
+                    "type": "fade",
+                    "duration": 600
+                }
+            ]
+        },
+        {
+            "reference": "start after previous",
+            "selection": ".rectangle",
+            "grouping":{
+                "groupBy": "Year",
+                "reference": "start after previous",
+                "delay": 600
+            },
+            "actions": [
+                {
+                    "type": "fade",
+                    "duration": 600
+                }
+            ]
+        },
+        {
+            "offset": 600,
+            "selection": ".link",
+            "grouping":{
+                "groupBy": "Year",
+                "reference": "start after previous",
+                "delay": 600
+            },
+            "actions": [
+                {
+                    "type": "wipe left",
+                    "easing": "easeOutCubic",
+                    "duration": 600
+                }
+            ]
+        }
+    ]
+}

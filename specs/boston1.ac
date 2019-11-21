@@ -1,0 +1,33 @@
+{
+  "charts": [
+    {
+      "source": "./charts/charticulator/bostonWeather.dsvg"
+    }
+  ],
+  "animations": [
+    {
+      "selection": ".line, .symbol",
+      "grouping": {
+      	"groupBy" : "_TYPE",
+        "reference": "start after previous"
+      },
+      "actions": [
+        {
+          "type": "circle",
+          "easing": "easeOutBounce",
+          "duration": 1000
+        }
+      ]
+    },
+    {
+        "reference": "start after previous",
+       "selection": ".title",
+      "actions": [
+        {
+          "type": "fade",
+          "duration": 1000
+        }
+      ] 
+    }
+  ]
+}

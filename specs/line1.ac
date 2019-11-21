@@ -1,0 +1,20 @@
+{
+    "charts": [
+        {
+            "source": "./charts/line",
+            "start": 1,
+            "end": 4
+        }
+    ],
+    "animations": [
+        {
+            "selection": ".link, .symbol",
+            "actions": [
+                {
+                    "type": "magic move",
+                    "duration": 1000
+                }
+            ]
+        }
+    ]
+}

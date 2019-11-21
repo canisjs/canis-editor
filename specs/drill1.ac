@@ -1,0 +1,21 @@
+{
+    "charts": [
+        {
+            "source": "./charts/demo/drill/eva_overview.dsvg"
+        },
+        {
+            "source": "./charts/demo/drill/eva_detail.dsvg"
+        }
+    ],
+    "animations": [
+        {
+            "selection": ".path",
+            "actions": [
+                {
+                    "type": "magic move",
+                    "duration": 1000
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,58 @@
+{
+    "charts": [
+        {
+            "source": "./charts/charticulator/gantt.dsvg"
+        }
+    ],
+    "animations": [
+        {
+            "selection": ".axis-domain",
+            "actions": [
+                {
+                    "type": "grow",
+                    "duration": 300
+                }
+            ]
+        },
+        {
+            "reference": "start after previous",
+            "selection": ".axis-tick, .axis-label",
+            "actions": [
+                {
+                    "type": "fade",
+                    "duration": 300
+                }
+            ]
+        },
+        {
+            "reference": "start after previous",
+            "selection": ".text",
+            "actions": [
+                {
+                    "offset": {
+                        "field": "start",
+                        "minOffset": 600
+                    },
+                    "type": "wipe left",
+                    "duration": 300
+                }
+            ]
+        },
+        {
+            "selection": ".rectangle",
+            "actions": [
+                {
+                    "offset": {
+                        "field": "start",
+                        "minOffset": 600
+                    },
+                    "type": "wipe left",
+                    "duration": {
+                        "field": "duration",
+                        "minDuration": 600
+                    }
+                }
+            ]
+        }
+    ]
+}

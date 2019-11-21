@@ -1,0 +1,20 @@
+{
+    "charts": [
+        {
+            "source": "./charts/demo/ranking/comp",
+            "start": 2014,
+            "end": 2019
+        }
+    ],
+    "animations": [
+        {
+            "selection": ".icon, .rectangle, .text",
+            "actions": [
+                {
+                    "type": "magic move",
+                    "duration": 1000
+                }
+            ]
+        }
+    ]
+}

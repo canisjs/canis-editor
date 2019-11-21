@@ -1,0 +1,103 @@
+<svg id="visChart" x="0" y="0" width="900" height="450" viewBox="0 0 900.000000 600.000000" 
+    xmlns="http://www.w3.org/2000/svg" 
+    xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve">
+    <g id="chartContent" transform="translate(450.000000,300.000000)">
+        <g transform="translate(0,0)" opacity="1">
+            <g transform="translate(0,0)" opacity="1"></g>
+            <g transform="translate(0,0)" opacity="1">
+                <g transform="translate(0,0)" opacity="1">
+                    <g transform="translate(0,0)" opacity="1">
+                        <g transform="translate(0,0)" opacity="1"></g>
+                        <g transform="translate(0,0)" opacity="1">
+                            <g transform="translate(0,0)" opacity="1">
+                                <path id="mark19" class=" mark Symbol1 symbol" d="M -350.98519081,181.09468249 A 4.37019372,4.37019372,0,1,0,-342.24480337,181.09468249 A 4.37019372,4.37019372,0,1,0,-350.98519081,181.09468249 Z" data-datum="{&quot;_TYPE&quot;:&quot;symbol&quot;,&quot;_MARKID&quot;:&quot;Symbol1&quot;,&quot;_x&quot;:-346.6149970883841,&quot;_y&quot;:-181.09468248876956,&quot;_id&quot;:&quot;18&quot;,&quot;IsEdible&quot;:&quot;Edible&quot;,&quot;Odor&quot;:&quot;Almond&quot;,&quot;Surface&quot;:&quot;Smooth&quot;}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="rgb(107,174,214)" fill-opacity="1" text-anchor="start" opacity="1" cursor="pointer" pointer-events="all"></path>
+                            </g>
+                            <g transform="translate(0,0)" opacity="1">
+                                <path id="mark20" class=" mark Symbol1 symbol" d="M -259.65696739,179.11121134 A 4.37019372,4.37019372,0,1,0,-250.91657994,179.11121134 A 4.37019372,4.37019372,0,1,0,-259.65696739,179.11121134 Z" data-datum="{&quot;_TYPE&quot;:&quot;symbol&quot;,&quot;_MARKID&quot;:&quot;Symbol1&quot;,&quot;_x&quot;:-255.28677366321332,&quot;_y&quot;:-179.11121134128422,&quot;_id&quot;:&quot;19&quot;,&quot;IsEdible&quot;:&quot;Edible&quot;,&quot;Odor&quot;:&quot;Anise&quot;,&quot;Surface&quot;:&quot;Smooth&quot;}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="rgb(107,174,214)" fill-opacity="1" text-anchor="start" opacity="1" cursor="pointer" pointer-events="all"></path>
+                            </g>
+                            <g transform="translate(0,0)" opacity="1">
+                                <path id="mark24" class=" mark Symbol1 symbol" d="M -353.56838339,15.35014404 A 4.37019372,4.37019372,0,1,0,-344.82799594,15.35014404 A 4.37019372,4.37019372,0,1,0,-353.56838339,15.35014404 Z" data-datum="{&quot;_TYPE&quot;:&quot;symbol&quot;,&quot;_MARKID&quot;:&quot;Symbol1&quot;,&quot;_x&quot;:-349.19818966557267,&quot;_y&quot;:-15.35014403559208,&quot;_id&quot;:&quot;23&quot;,&quot;IsEdible&quot;:&quot;Edible&quot;,&quot;Odor&quot;:&quot;Almond&quot;,&quot;Surface&quot;:&quot;Scaly&quot;}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="rgb(107,174,214)" fill-opacity="1" text-anchor="start" opacity="1" cursor="pointer" pointer-events="all"></path>
+                            </g>
+                            <g transform="translate(0,0)" opacity="1">
+                                <path id="mark37" class=" mark Symbol1 symbol" d="M -359.44215993,177.90435422 A 4.37019372,4.37019372,0,1,0,-350.70177249,177.90435422 A 4.37019372,4.37019372,0,1,0,-359.44215993,177.90435422 Z" data-datum="{&quot;_TYPE&quot;:&quot;symbol&quot;,&quot;_MARKID&quot;:&quot;Symbol1&quot;,&quot;_x&quot;:-355.0719662074761,&quot;_y&quot;:-177.90435421704177,&quot;_id&quot;:&quot;36&quot;,&quot;IsEdible&quot;:&quot;Edible&quot;,&quot;Odor&quot;:&quot;Almond&quot;,&quot;Surface&quot;:&quot;Smooth&quot;}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="rgb(107,174,214)" fill-opacity="1" text-anchor="start" opacity="1" cursor="pointer" pointer-events="all"></path>
+                            </g>
+                            <g transform="translate(0,0)" opacity="1">
+                                <path id="mark52" class=" mark Symbol1 symbol" d="M -258.10975914,15.67428722 A 4.37019372,4.37019372,0,1,0,-249.3693717,15.67428722 A 4.37019372,4.37019372,0,1,0,-258.10975914,15.67428722 Z" data-datum="{&quot;_TYPE&quot;:&quot;symbol&quot;,&quot;_MARKID&quot;:&quot;Symbol1&quot;,&quot;_x&quot;:-253.73956541885963,&quot;_y&quot;:-15.674287222196995,&quot;_id&quot;:&quot;51&quot;,&quot;IsEdible&quot;:&quot;Edible&quot;,&quot;Odor&quot;:&quot;Anise&quot;,&quot;Surface&quot;:&quot;Scaly&quot;}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="rgb(107,174,214)" fill-opacity="1" text-anchor="start" opacity="1" cursor="pointer" pointer-events="all"></path>
+                            </g>
+                            <g transform="translate(0,0)" opacity="1">
+                                <path id="mark65" class=" mark Symbol1 symbol" d="M -264.51507095,9.72732856 A 4.37019372,4.37019372,0,1,0,-255.7746835,9.72732856 A 4.37019372,4.37019372,0,1,0,-264.51507095,9.72732856 Z" data-datum="{&quot;_TYPE&quot;:&quot;symbol&quot;,&quot;_MARKID&quot;:&quot;Symbol1&quot;,&quot;_x&quot;:-260.14487722445983,&quot;_y&quot;:-9.727328563588934,&quot;_id&quot;:&quot;64&quot;,&quot;IsEdible&quot;:&quot;Edible&quot;,&quot;Odor&quot;:&quot;Anise&quot;,&quot;Surface&quot;:&quot;Scaly&quot;}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="rgb(107,174,214)" fill-opacity="1" text-anchor="start" opacity="1" cursor="pointer" pointer-events="all"></path>
+                            </g>
+                            <g transform="translate(0,0)" opacity="1">
+                                <path id="mark78" class=" mark Symbol1 symbol" d="M -265.89082959,172.98476647 A 4.37019372,4.37019372,0,1,0,-257.15044214,172.98476647 A 4.37019372,4.37019372,0,1,0,-265.89082959,172.98476647 Z" data-datum="{&quot;_TYPE&quot;:&quot;symbol&quot;,&quot;_MARKID&quot;:&quot;Symbol1&quot;,&quot;_x&quot;:-261.52063586278484,&quot;_y&quot;:-172.98476647439367,&quot;_id&quot;:&quot;77&quot;,&quot;IsEdible&quot;:&quot;Edible&quot;,&quot;Odor&quot;:&quot;Anise&quot;,&quot;Surface&quot;:&quot;Smooth&quot;}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="rgb(107,174,214)" fill-opacity="1" text-anchor="start" opacity="1" cursor="pointer" pointer-events="all"></path>
+                            </g>
+                            <g transform="translate(0,0)" opacity="1">
+                                <path id="mark85" class=" mark Symbol1 symbol" d="M -256.16219703,7.15364436 A 4.37019372,4.37019372,0,1,0,-247.42180958,7.15364436 A 4.37019372,4.37019372,0,1,0,-256.16219703,7.15364436 Z" data-datum="{&quot;_TYPE&quot;:&quot;symbol&quot;,&quot;_MARKID&quot;:&quot;Symbol1&quot;,&quot;_x&quot;:-251.79200330352842,&quot;_y&quot;:-7.15364435799812,&quot;_id&quot;:&quot;84&quot;,&quot;IsEdible&quot;:&quot;Edible&quot;,&quot;Odor&quot;:&quot;Anise&quot;,&quot;Surface&quot;:&quot;Scaly&quot;}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="rgb(107,174,214)" fill-opacity="1" text-anchor="start" opacity="1" cursor="pointer" pointer-events="all"></path>
+                            </g>
+                            <g transform="translate(0,0)" opacity="1">
+                                <path id="mark91" class=" mark Symbol1 symbol" d="M -360.06217414,9.49992767 A 4.37019372,4.37019372,0,1,0,-351.32178669,9.49992767 A 4.37019372,4.37019372,0,1,0,-360.06217414,9.49992767 Z" data-datum="{&quot;_TYPE&quot;:&quot;symbol&quot;,&quot;_MARKID&quot;:&quot;Symbol1&quot;,&quot;_x&quot;:-355.69198041527426,&quot;_y&quot;:-9.49992766736266,&quot;_id&quot;:&quot;90&quot;,&quot;IsEdible&quot;:&quot;Edible&quot;,&quot;Odor&quot;:&quot;Almond&quot;,&quot;Surface&quot;:&quot;Scaly&quot;}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="rgb(107,174,214)" fill-opacity="1" text-anchor="start" opacity="1" cursor="pointer" pointer-events="all"></path>
+                            </g>
+                            <g transform="translate(0,0)" opacity="1">
+                                <path id="mark92" class=" mark Symbol1 symbol" d="M -266.46263221,18.24796978 A 4.37019372,4.37019372,0,1,0,-257.72224477,18.24796978 A 4.37019372,4.37019372,0,1,0,-266.46263221,18.24796978 Z" data-datum="{&quot;_TYPE&quot;:&quot;symbol&quot;,&quot;_MARKID&quot;:&quot;Symbol1&quot;,&quot;_x&quot;:-262.09243848869716,&quot;_y&quot;:-18.247969775279934,&quot;_id&quot;:&quot;91&quot;,&quot;IsEdible&quot;:&quot;Edible&quot;,&quot;Odor&quot;:&quot;Anise&quot;,&quot;Surface&quot;:&quot;Scaly&quot;}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="rgb(107,174,214)" fill-opacity="1" text-anchor="start" opacity="1" cursor="pointer" pointer-events="all"></path>
+                            </g>
+                            <g transform="translate(0,0)" opacity="1">
+                                <path id="mark101" class=" mark Symbol1 symbol" d="M -352.57306193,172.49974081 A 4.37019372,4.37019372,0,1,0,-343.83267448,172.49974081 A 4.37019372,4.37019372,0,1,0,-352.57306193,172.49974081 Z" data-datum="{&quot;_TYPE&quot;:&quot;symbol&quot;,&quot;_MARKID&quot;:&quot;Symbol1&quot;,&quot;_x&quot;:-348.20286820469255,&quot;_y&quot;:-172.49974080736226,&quot;_id&quot;:&quot;100&quot;,&quot;IsEdible&quot;:&quot;Edible&quot;,&quot;Odor&quot;:&quot;Almond&quot;,&quot;Surface&quot;:&quot;Smooth&quot;}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="rgb(107,174,214)" fill-opacity="1" text-anchor="start" opacity="1" cursor="pointer" pointer-events="all"></path>
+                            </g>
+                            <g transform="translate(0,0)" opacity="1">
+                                <path id="mark109" class=" mark Symbol1 symbol" d="M -166.90781618,179.5 A 4.37019372,4.37019372,0,1,0,-158.16742874,179.5 A 4.37019372,4.37019372,0,1,0,-166.90781618,179.5 Z" data-datum="{&quot;_TYPE&quot;:&quot;symbol&quot;,&quot;_MARKID&quot;:&quot;Symbol1&quot;,&quot;_x&quot;:-162.53762246170288,&quot;_y&quot;:-179.5,&quot;_id&quot;:&quot;108&quot;,&quot;IsEdible&quot;:&quot;Poisonous&quot;,&quot;Odor&quot;:&quot;Creosote&quot;,&quot;Surface&quot;:&quot;Smooth&quot;}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="rgb(239,59,44)" fill-opacity="1" text-anchor="start" opacity="1" cursor="pointer" pointer-events="all"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g transform="translate(0,0)" opacity="1">
+                        <g transform="translate(0,0)" class="axis" data-datum="{&quot;_TYPE&quot;:&quot;axis&quot;,&quot;type&quot;:&quot;x&quot;,&quot;position&quot;:&quot;Odor&quot;}" opacity="1">
+                            <path id="mark1001" class=" mark axis-domain" d="M -392.6159601,250 L -100,250.00107478" data-datum="{&quot;_TYPE&quot;:&quot;axis-domain&quot;}" stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="round" fill="none" fill-opacity="1" text-anchor="start" opacity="1"></path>
+                            <path id="mark2001" class=" mark axis-tick" d="M -350.84381234,250 L -350.84845317,254.99646436" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;,&quot;text&quot;:&quot;Almond&quot;}" stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="round" fill="none" fill-opacity="1" text-anchor="start" opacity="1"></path>
+                            <path id="mark2002" class=" mark axis-tick" d="M -256.6907174,250 L -256.6886747,255.00484706" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;,&quot;text&quot;:&quot;Anise&quot;}" stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="round" fill="none" fill-opacity="1" text-anchor="start" opacity="1"></path>
+                            <path id="mark2003" class=" mark axis-tick" d="M -162.53762246,250 L -162.53616314,254.99705821" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;,&quot;text&quot;:&quot;Creosote&quot;}" stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="round" fill="none" fill-opacity="1" text-anchor="start" opacity="1"></path>
+                            <path id="mark1002" class=" mark axis-domain" d="M -392.6159601,250 L -392.61294807,255.00462935" data-datum="{&quot;_TYPE&quot;:&quot;axis-domain&quot;}" stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="round" fill="none" fill-opacity="1" text-anchor="start" opacity="1"></path>
+                            <path id="mark1003" class=" mark axis-domain" d="M 350,250 L 349.99680427,255.00085169" data-datum="{&quot;_TYPE&quot;:&quot;axis-domain&quot;}" stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="round" fill="none" fill-opacity="1" text-anchor="start" opacity="1"></path>
+                            <g transform="translate(-350.84381234,258)" opacity="1">
+                                <text id="mark3001" class=" mark axis-label" x="-20.34375" y="10.396272568433318" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;Almond&quot;}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="rgb(0,0,0)" fill-opacity="1" text-anchor="start" opacity="1" font-family="Arial" font-size="12px">Almond</text>
+                            </g>
+                            <g transform="translate(-256.6907174,258)" opacity="1">
+                                <text id="mark3002" class=" mark axis-label" x="-15.0087890625" y="10.396272568433318" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;Anise&quot;}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="rgb(0,0,0)" fill-opacity="1" text-anchor="start" opacity="1" font-family="Arial" font-size="12px">Anise</text>
+                            </g>
+                            <g transform="translate(-162.53762246,258)" opacity="1">
+                                <text id="mark3003" class=" mark axis-label" x="-24.345703125" y="10.396272568433318" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;Creosote&quot;}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="rgb(0,0,0)" fill-opacity="1" text-anchor="start" opacity="1" font-family="Arial" font-size="12px">Creosote</text>
+                            </g>
+                        </g>
+                        <g transform="translate(0,0)" class="axis" data-datum="{&quot;_TYPE&quot;:&quot;axis&quot;,&quot;type&quot;:&quot;y&quot;,&quot;position&quot;:&quot;Surface&quot;}" opacity="1">
+                            <path id="mark1004" class=" mark axis-domain" d="M -392.6159601,250 L -392.61399044,-219.99751633" data-datum="{&quot;_TYPE&quot;:&quot;axis-domain&quot;}" stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="round" fill="none" fill-opacity="1" text-anchor="start" opacity="1"></path>
+                            <path id="mark2010" class=" mark axis-tick" d="M -392.6159601,15 L -397.6158132,14.99684444" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;,&quot;text&quot;:&quot;Scaly&quot;}" stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="round" fill="none" fill-opacity="1" text-anchor="start" opacity="1"></path>
+                            <path id="mark2011" class=" mark axis-tick" d="M -392.6159601,179.5 L -397.61740784,179.49907708" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;,&quot;text&quot;:&quot;Smooth&quot;}" stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="round" fill="none" fill-opacity="1" text-anchor="start" opacity="1"></path>
+                            <path id="mark1005" class=" mark axis-domain" d="M -392.6159601,250 L -397.62028459,250.0047741" data-datum="{&quot;_TYPE&quot;:&quot;axis-domain&quot;}" stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="round" fill="none" fill-opacity="1" text-anchor="start" opacity="1"></path>
+                            <path id="mark1006" class=" mark axis-domain" d="M -392.6159601,-220 L -397.61374635,-219.99768626" data-datum="{&quot;_TYPE&quot;:&quot;axis-domain&quot;}" stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="round" fill="none" fill-opacity="1" text-anchor="start" opacity="1"></path>
+                            <g transform="translate(-400.6159601,15)" opacity="1">
+                                <text id="mark3010" class=" mark axis-label" x="-29.34375" y="3.929947582993595" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;Scaly&quot;}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="rgb(0,0,0)" fill-opacity="1" text-anchor="start" opacity="1" font-family="Arial" font-size="12px">Scaly</text>
+                            </g>
+                            <g transform="translate(-400.6159601,179.5)" opacity="1">
+                                <text id="mark3011" class=" mark axis-label" x="-41.35546875" y="3.929947582993595" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;Smooth&quot;}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="rgb(0,0,0)" fill-opacity="1" text-anchor="start" opacity="1" font-family="Arial" font-size="12px">Smooth</text>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g transform="translate(0,0)" opacity="1">
+                <g transform="translate(-21.30798005,-300)" opacity="1">
+                    <text x="-62.68359375" y="51.254979615608626" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="rgb(0,0,0)" fill-opacity="1" text-anchor="start" opacity="1" font-family="Arial" font-size="24px">mushrooms</text>
+                </g>
+            </g>
+            <g transform="translate(0,0)" opacity="1">
+                <g transform="translate(350,-172)" id="mark4001" class="mark legend" data-datum="{&quot;_TYPE&quot;:&quot;legend&quot;,&quot;fill&quot;:&quot;IsEdible&quot;,&quot;color&quot;:&quot;IsEdible&quot;}" opacity="1">
+                    <g transform="translate(0,-24)" opacity="1">
+                        <text x="29" y="-7.377204426324983" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="rgb(0,0,0)" fill-opacity="1" text-anchor="start" opacity="1" font-family="Arial" font-size="14px">Edible</text>
+                        <path d="M 8,-4 L 8.00249333,-20.00231613 L 24.00303015,-20.00114246 L 24.00463083,-3.99586451 Z" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="rgb(107,174,214)" fill-opacity="1" text-anchor="start" opacity="1"></path>
+                    </g>
+                    <g transform="translate(0,0)" opacity="1">
+                        <text x="29" y="-7.377204426324983" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="rgb(0,0,0)" fill-opacity="1" text-anchor="start" opacity="1" font-family="Arial" font-size="14px">Poisonous</text>
+                        <path d="M 8,-4 L 7.99789296,-19.99715591 L 24.00066975,-20.00128521 L 24.00038468,-3.99688534 Z" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="rgb(239,59,44)" fill-opacity="1" text-anchor="start" opacity="1"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
