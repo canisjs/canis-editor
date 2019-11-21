@@ -108,9 +108,9 @@
         </section>
     </div>
 
-    <script src='node_modules/monaco-editor/min/vs/loader.js'></script>
+    <script src='js/lib/monaco-editor/min/vs/loader.js'></script>
     <script>
-        require.config({ paths: { 'vs': 'node_modules/monaco-editor/min/vs' } });
+        require.config({ paths: { 'vs': 'js/lib/monaco-editor/min/vs' } });
         require(['vs/editor/editor.main'], function () {
             editorValue = '';
             let editor = monaco.editor.create(document.getElementById('specContainer'), {
