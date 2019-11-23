@@ -4265,7 +4265,7 @@ function () {
       var ty = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : 0;
       var diffCmds = arguments.length > 4 && arguments[4] !== undefined ? arguments[4] : new Map();
       d = d.replace(/(?<=\d)\s(?=[mMlLhHvVcCsSqQtTaAzZ])/g, '').replace(/(?<=[mMlLhHvVcCsSqQtTaA])\s(?=(\d|[-+]))/g, '').replace(/\s/g, ',');
-      var cmdRegExp = new RegExp(/[mMlLhHvVcCsSqQtTaA][^mMlLhHvVcCsSqQtTaAzZ]*/g);
+      var cmdRegExp = new RegExp(/[mMlLhHvVcCsSqQtTaAzZ][^mMlLhHvVcCsSqQtTaAzZ]*/g);
       var resultCmd = '';
       var cmds = d.match(cmdRegExp);
 
@@ -4338,7 +4338,7 @@ function () {
               for (var _ni = 0; _ni < nums2.length; _ni++) {
                 resultCmd = this.calNumTrans(resultCmd, diffCmds, i, cmdName, nums2[_ni], reset, '0', 0);
 
-                if (_ni !== nums2.length - 1) {
+                if (_ni !== nums2.length - 1 && nums2[_ni] !== '') {
                   resultCmd += ',';
                 }
               }
@@ -4380,6 +4380,10 @@ function () {
               }
 
               break;
+
+            case 'z':
+            case 'Z':
+              break;
           }
         }
 
@@ -4415,7 +4419,10 @@ function () {
           resultCmd += cmdValue;
         }
       } else {
-        resultCmd += parseFloat(cmdValue) + tVal;
+        // console.log('test', cmdValue, cmdValue.length, tVal, typeof cmdValue, typeof tVal);
+        if (cmdValue.length > 0) {
+          resultCmd += parseFloat(cmdValue) + tVal;
+        }
       }
 
       return resultCmd;

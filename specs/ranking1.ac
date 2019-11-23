@@ -1,9 +1,29 @@
 {
     "charts": [
         {
-            "source": "./charts/demo/ranking/comp",
-            "start": 2014,
-            "end": 2019
+            "source": "./charts/demo/ranking/comp2010",
+            "start": 1,
+            "end": 9
+        },
+        {
+            "source": "./charts/demo/ranking/comp2011",
+            "start": 1,
+            "end": 11
+        },
+        {
+            "source": "./charts/demo/ranking/comp2012",
+            "start": 1,
+            "end": 9
+        },
+        {
+            "source": "./charts/demo/ranking/comp2013",
+            "start": 1,
+            "end": 10
+        },
+        {
+            "source": "./charts/demo/ranking/comp2014",
+            "start": 1,
+            "end": 11
         }
     ],
     "animations": [

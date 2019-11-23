@@ -7,7 +7,7 @@
     <meta name="description" content="Animated Charts">
     <meta name="keywords" content="Animation, Visualization, Chart">
     <meta name="author" content="tge">
-    <title>Canis Online Editor</title>
+    <title>AniChart Online Editor</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
     <script src='js/lib/jquery-3.3.1.min.js'></script>
@@ -64,7 +64,7 @@
                             <option value='product_2'>3.2 product</option>
                             <option value='rain_1'>4.1 rain data</option>
                             <option value='polio_1'>5.1 polio incidence rates 1950s</option>
-                            <option value='purchases_1'>6.1 donut purchases</option>
+                            <option value='purchases_1' selected>6.1 donut purchases</option>
                             <option value='calories_1'>7.1 calories burning data</option>
                             <option value='calories_2'>7.2 calories burning data</option>
                             <option value='calories_3'>7.3 calories burning data</option>
@@ -77,7 +77,7 @@
                             <option value='boston_1'>12.1 boston weather</option>
                             <option value='bezierLine_1'>13.1 bezier line</option>
                             <option value='chartType_1'>14.1 free shape transformation</option>
-                            <option value='gdp_1' selected>15.1 per capita GDP of G7 countries in 2018</option>
+                            <option value='gdp_1'>15.1 per capita GDP of G7 countries in 2018</option>
                             <option value='polioTrans_1'>16.1 Polio incidence rates 1950 - 1953</option>
                             <option value='demo_1'>17.1 demo</option>
                             <option value='ranking_1'>18.1 ranking</option>
@@ -108,9 +108,9 @@
         </section>
     </div>
 
-    <script src='js/lib/monaco-editor/min/vs/loader.js'></script>
+    <script src='node_modules/monaco-editor/min/vs/loader.js'></script>
     <script>
-        require.config({ paths: { 'vs': 'js/lib/monaco-editor/min/vs' } });
+        require.config({ paths: { 'vs': 'node_modules/monaco-editor/min/vs' } });
         require(['vs/editor/editor.main'], function () {
             editorValue = '';
             let editor = monaco.editor.create(document.getElementById('specContainer'), {
@@ -127,7 +127,7 @@
             let gif = null;
 
             $(function () {
-                let dataName = 'gdp', specIdx = 1;
+                let dataName = 'gapminder', specIdx = 2;
 
                 //check whether the user came from the project page
                 let thisURL = document.URL;
