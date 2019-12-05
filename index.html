@@ -64,17 +64,19 @@
                 <div class='editor-header'>
                     <div class='select-wrapper'>
                         <select id='dataSelection' class='spec-selector' title='select example'>
+                            <option selected value='groupedBar_1'>0. Fruit Sale</option>
                             <option selected value='mushroom_1'>1. Characteristics of Mushrooms</option>
                             <option value='gantt_1'>2. Event Planning</option>
                             <option value='purchases_1'>3. Doughnut Purchases</option>
                             <option value='os_1'>4. Mobile Operating System Market Share</option>
                             <option value='ranking_1'>5. Top 10 Best Global Brands Ranking</option>
-                            <option value='nightingale_1'>6. Causes of Mortality over Time</option>
-                            <option value='polioTrans_1'>7. Polio Incidence Rates of the United States</option>
-                            <option value='polio_1'>8. Polio Incidence Rates of the United States in 1950s</option>
-                            <option value='gapminder_1'>9. Trend of Life expectancy with the Development of Fertility
+                            <option value='drill_1'>6. Ebay Motorcycle Listings</option>
+                            <option value='nightingale_1'>7. Causes of Mortality over Time</option>
+                            <option value='polioTrans_1'>8. Polio Incidence Rates of the United States</option>
+                            <option value='polio_1'>9. Polio Incidence Rates of the United States in 1950s</option>
+                            <option value='gapminder_1'>10. Trend of Life expectancy with the Development of Fertility
                             </option>
-                            <option value='gapminder_2'>10. Trend of Life expectancy with the Changing of GDP</option>
+                            <option value='gapminder_2'>11. Trend of Life expectancy with the Changing of GDP</option>
                         </select>
                     </div>
                 </div>
@@ -134,7 +136,7 @@
             let gif = null;
 
             $(function () {
-                dataName = 'drill', specIdx = 1;
+                dataName = 'groupedBar', specIdx = 1;
 
                 //check whether the user came from the project page
                 let thisURL = document.URL;
@@ -191,7 +193,6 @@
             }
 
             function loadEnd(){
-                console.log('end');
                 $('#loadingCover').css('display', 'none');
             }
 
@@ -252,7 +253,7 @@
                     //reset vars
                     resetPlayerWidgets();
                     canis.reset();
-                    let canisSpec = canis.renderSpec(JSON.parse(currentValue));
+                    let canisSpec = canis.renderSpec(JSON.parse(currentValue), loadEnd );
                     //render lottie
                     lottie.destroy();
                     lottie.loadAnimation({
