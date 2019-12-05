@@ -57,7 +57,9 @@
     float: left;
     font-size: 13px;
     line-height: 30px;
-    text-transform: uppercase;
+    width: 120px;
+    text-align: center;
+    /* text-transform: uppercase; */
     background: #fff;
     font-family: "Roboto", "Helvetica", "Arial", sans-serif;
 }

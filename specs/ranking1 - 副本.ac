@@ -6,6 +6,16 @@
             "end": 9
         },
         {
+            "source": "./charts/barRace/comp2011",
+            "start": 1,
+            "end": 9
+        },
+        {
+            "source": "./charts/barRace/comp2012",
+            "start": 1,
+            "end": 9
+        },
+        {
             "source": "./charts/barRace/comp2013",
             "start": 1,
             "end": 9
