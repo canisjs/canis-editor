@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset='utf-8'>
     <link rel='icon' href='logo.ico' type='image/x-icon' />
@@ -7,7 +8,7 @@
     <meta name="description" content="Animated Charts">
     <meta name="keywords" content="Animation, Visualization, Chart">
     <meta name="author" content="tge">
-    <title>AniChart Online Editor</title>
+    <title>Canis Online Editor</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
     <script src='js/lib/jquery-3.3.1.min.js'></script>
@@ -17,15 +18,17 @@
     <!-- <script src='js/lib/anichart.min.js'></script> -->
     <script src='js/lib/anichart.js'></script>
     <script src='js/util/Util.js'></script>
+    <script src="js/lib/lottie.js" type="text/javascript"></script>
+    <!-- <script src="js/lib/lottie.min.js" type="text/javascript"></script> -->
 </head>
+
 <body>
-    <div id='renderCover' class='render-cover'>
-        <div class='loader'></div>
-    </div>
+    <div id='statusFooter' class='status-footer'></div>
     <div>
         <section class='nav-container'>
             <div class='menu-bar-left'>
-                <span class='title-span' onClick=''>
+                <input type='file' ref='openSVG' id='browsefile' style='display:none' />
+                <span class='title-span' onClick='window.location.href="https://canisjs.github.io"'>
                     <span class='cont-text'>
                         canis
                     </span>
@@ -33,6 +36,12 @@
                 <div class='circle-button'>
                     <span class='tool-button'>
                         <span id='renderBtn' class='tool-icon play-icon' title='play' />
+                    </span>
+                </div>
+                <div class='circle-button'>
+                    <span class='tool-button'>
+                        <span id='openBtn' class='tool-icon open-icon' title='import Canis spec'
+                            onclick='browsefile.click()' />
                     </span>
                 </div>
                 <div class='circle-button'>
@@ -55,33 +64,16 @@
                 <div class='editor-header'>
                     <div class='select-wrapper'>
                         <select id='dataSelection' class='spec-selector' title='select example'>
-                            <option value='line_1'>1.1 line: magic move across charts</option>
-                            <option value='line_2'>1.2 line: using facet</option>
-                            <option value='line_3'>1.3 line: animation in just one chart</option>
-                            <option value='line_4'>1.4 line: animation in multi charts</option>
-                            <option value='pie_1'>2.1 pie: magic move across pie charts</option>
-                            <option value='product_1'>3.1 product: magic move across bubble chart</option>
-                            <option value='product_2'>3.2 product</option>
-                            <option value='rain_1'>4.1 rain data</option>
-                            <option value='polio_1'>5.1 polio incidence rates 1950s</option>
-                            <option value='purchases_1' selected>6.1 donut purchases</option>
-                            <option value='calories_1'>7.1 calories burning data</option>
-                            <option value='calories_2'>7.2 calories burning data</option>
-                            <option value='calories_3'>7.3 calories burning data</option>
-                            <option value='gapminder_1'>8.1 life experience</option>
-                            <option value='gapminder_2'>8.2 life experience</option>
-                            <option value='gantt_1'>9.1event plan</option>
-                            <option value='weather_1'>10.1 weather of four cities</option>
-                            <option value='os_1'>11.1 mobile os market share</option>
-                            <option value='evaOs_1'>11.2 mobile no link</option>
-                            <option value='boston_1'>12.1 boston weather</option>
-                            <option value='bezierLine_1'>13.1 bezier line</option>
-                            <option value='chartType_1'>14.1 free shape transformation</option>
-                            <option value='gdp_1'>15.1 per capita GDP of G7 countries in 2018</option>
-                            <option value='polioTrans_1'>16.1 Polio incidence rates 1950 - 1953</option>
-                            <option value='demo_1'>17.1 demo</option>
-                            <option value='ranking_1'>18.1 ranking</option>
-                            <option value='mushroom_1'>19.1 mushroom</option>
+                            <option selected value='mushroom_1'>1. Characteristics of Mushrooms</option>
+                            <option value='gantt_1'>2. Event Planning</option>
+                            <option value='purchases_1'>3. Doughnut Purchases</option>
+                            <option value='os_1'>4. Mobile Operating System Market Share</option>
+                            <option value='ranking_1'>5. Top 10 Best Global Brands Ranking</option>
+                            <option value='nightingale_1'>6. Causes of Mortality over Time</option>
+                            <option value='polioTrans_1'>7. Polio Incidence Rates of the United States</option>
+                            <option value='polio_1'>8. Polio Incidence Rates of the United States in 1950s</option>
+                            <option value='gapminder_1'>9. Trend of Life expectancy with the Development of Fertility</option>
+                            <option value='gapminder_2'>10. Trend of Life expectancy with the Changing of GDP</option>
                         </select>
                     </div>
                 </div>
@@ -90,8 +82,21 @@
 
             <!-- result -->
             <div class='result-wrapper'>
-                <div id='chartContainer' class='chart-container'></div>
-                <div id='videoContainer' class='video-container'></div>
+                <!-- <div id='lottieRender' style='height:500px;'></div> -->
+                <div id='chartWrapper' class='chart-wrapper'>
+                    <div class='result-title'>
+                        <span class='result-title-content'>visualization chart</span>
+                        <span id='chartFoldBtn' class='rect-button fold-icon' title='fold visualization chart'></span>
+                    </div>
+                    <div id='chartContainer' class='chart-container'></div>
+                </div>
+                <div id='videoWrapper' class='video-wrapper'>
+                    <div class='result-title'>
+                        <span class='result-title-content'>result animation</span>
+                        <span id='videoFoldBtn' class='rect-button fold-icon' title='fold result animation'></span>
+                    </div>
+                    <div id='lottieRender' class='video-container'></div>
+                </div>
                 <div id='controlContainer' class='control-container'>
                     <div id='timelineContainer' class='timeline-container'>
                         <div id='timeline' class='timeline'>
@@ -127,7 +132,7 @@
             let gif = null;
 
             $(function () {
-                let dataName = 'purchases', specIdx = 1;
+                let dataName = 'mushroom', specIdx = 1;
 
                 //check whether the user came from the project page
                 let thisURL = document.URL;
@@ -144,13 +149,39 @@
                 loadJson(dataName, specIdx);
             })
 
+            $('#browsefile').change((e) => {
+                let file = $(e.target).prop('files')[0];
+                let reader = new FileReader();
+                let that = this;
+                reader.onloadend = function (evt) {
+                    if (evt.target.readyState == FileReader.DONE) {
+                        let result = evt.target.result;
+                        updateEditorAndLoadAni(JSON.parse(result));
+                    }
+                };
+                reader.readAsText(file, 'utf-8');
+            })
+
             function loadJson(dataName, animationIdx, callback) {
                 $.getJSON('specs/' + dataName + animationIdx + '.ac', function (data) {
-                    let jsonStr = JSON.stringify(data, null, 2);
-                    editor.setValue(jsonStr);
-                    editorValue = jsonStr;
-                    aniChart.renderSpec(data);
+                    updateEditorAndLoadAni(data);
                 })
+            }
+
+            function updateEditorAndLoadAni(data) {
+                let jsonStr = JSON.stringify(data, null, 2);
+                editor.setValue(jsonStr);
+                editorValue = jsonStr;
+                let canisSpec = canis.renderSpec(data);
+                //render lottie
+                lottie.destroy();
+                lottie.loadAnimation({
+                    container: document.getElementById('lottieRender'),
+                    renderer: 'svg',
+                    loop: false,
+                    autoplay: false,
+                    animationData: canisSpec, // the animation data
+                });
             }
 
             //data selection
@@ -161,7 +192,41 @@
                 loadJson(dataName, animationIdx);
                 pauseAnimation();
                 resetPlayerWidgets();
-                aniChart.reset();
+                canis.reset();
+            })
+
+            $('#chartFoldBtn').click((e) => {
+                if ($(e.target).hasClass('fold-icon')) {
+                    $(e.target).removeClass('fold-icon');
+                    $(e.target).addClass('unfold-icon');
+                    $(e.target).attr('title', 'unfold visualization chart');
+                    $('#chartContainer').css('display', 'none');
+                    $('#videoWrapper').css('flex', 300 + ' 1 0%');
+                } else {
+                    $(e.target).addClass('fold-icon');
+                    $(e.target).removeClass('unfold-icon');
+                    $(e.target).attr('title', 'fold visualization chart');
+                    $('#videoWrapper').css('flex', 1 + ' 1 0%');
+                    $('#chartContainer').css('display', '');
+                }
+            })
+
+            $('#videoFoldBtn').click((e) => {
+                if ($(e.target).hasClass('fold-icon')) {
+                    $(e.target).removeClass('fold-icon');
+                    $(e.target).addClass('unfold-icon');
+                    $(e.target).attr('title', 'unfold result animation');
+                    $('#lottieRender').css('display', 'none');
+                    $('#chartWrapper').css('flex', 300 + ' 1 0%');
+                    $('#controlContainer').css('display', 'none');
+                } else {
+                    $(e.target).addClass('fold-icon');
+                    $(e.target).removeClass('unfold-icon');
+                    $(e.target).attr('title', 'fold result animation');
+                    $('#chartWrapper').css('flex', 1 + ' 1 0%');
+                    $('#lottieRender').css('display', '');
+                    $('#controlContainer').css('display', '');
+                }
             })
 
             //render function
@@ -172,21 +237,33 @@
                 } else if (editorValue === currentValue) {
                     playAnimation();
                 } else {
+                    editorValue = currentValue;
                     //reset vars
                     resetPlayerWidgets();
-                    aniChart.reset();
-                    aniChart.renderSpec(JSON.parse(currentValue));
+                    canis.reset();
+                    let canisSpec = canis.renderSpec(JSON.parse(currentValue));
+                    //render lottie
+                    lottie.destroy();
+                    lottie.loadAnimation({
+                        container: document.getElementById('lottieRender'),
+                        renderer: 'svg',
+                        loop: false,
+                        autoplay: false,
+                        // path: 'like.json' // the path to the animation json
+                        animationData: canisSpec, // the animation data
+                    });
+
                     playAnimation();
                 }
             })
 
-            $('#playBtnContainer').click(function () {
-                if (playing) {
-                    pauseAnimation();
-                } else {
-                    playAnimation();
-                }
-            })
+            // $('#playBtnContainer').click(function () {
+            //     if (playing) {
+            //         pauseAnimation();
+            //     } else {
+            //         playAnimation();
+            //     }
+            // })
 
             //timeline slider
             $('#slider').mousedown(function () {
@@ -198,11 +275,10 @@
                         $('#pastTime').width(targetX);
 
                         let ratio = targetX / $('#track').width();
-                        time = aniChart.duration() * ratio;
-                        time = parseInt(time / (1000 / aniChart.frameRate)) * (1000 / aniChart.frameRate);
-                        aniChart.renderFrame(0);
-                        aniChart.renderFrame(time);
+                        time = parseInt(canis.duration() * ratio / (1000 / canis.frameRate)) * (1000 / canis.frameRate);
                         $('#currentTime').text(Util.formatTime(time));
+                        currentFrame = Math.ceil(time / (1000 / canis.frameRate));
+                        lottie.goToAndStop(currentFrame, true);
                     }
                 })
                 $(document).mouseup(function (moveEvt) {
@@ -218,17 +294,19 @@
                 $('#pastTime').width(targetX);
 
                 let ratio = targetX / $('#track').width();
-                time = aniChart.duration() * ratio;
-                time = parseInt(time / (1000 / aniChart.frameRate)) * (1000 / aniChart.frameRate);
-                aniChart.renderFrame(0);
-                aniChart.renderFrame(time);
+                time = parseInt(canis.duration() * ratio / (1000 / canis.frameRate)) * (1000 / canis.frameRate);
                 $('#currentTime').text(Util.formatTime(time));
+                currentFrame = Math.ceil(time / (1000 / canis.frameRate));
+                lottie.goToAndStop(currentFrame, true);
             })
 
             let animationInterval;
             function playAnimation() {
                 if ($('#endTime').text() === zeroTime) {
-                    $('#endTime').text(Util.formatTime(aniChart.duration()));
+                    $('#endTime').text(Util.formatTime(canis.duration()));
+                }
+                if (time === 0) {
+                    lottie.stop();
                 }
                 $('#renderBtn').attr('title', 'pause');
                 $('#renderBtn').removeClass('play-icon');
@@ -236,45 +314,18 @@
                 playing = true;
 
                 animationInterval = setInterval(() => {
-                    //set timeline controler
-                    let ratio = time / aniChart.duration();
+                    let ratio = time / canis.duration();
                     $('#pastTime').width($('#track').width() * ratio);
                     $('#slider').css('margin-left', $('#track').width() * ratio - 8 + 'px');
                     $('#currentTime').text(Util.formatTime(time));
-
-                    //render this frame
-                    time = parseInt(time / (1000 / aniChart.frameRate)) * (1000 / aniChart.frameRate);
-                    let locatedFrame = aniChart.renderFrame(time);
-
-                    if (gif) {
-                        html2canvas(document.querySelector('#videoContainer')).then(function (tmpCanvas) {
-                            if (gif)
-                                gif.addFrame(tmpCanvas, { 'delay': 1000 / aniChart.frameRate });
-                        }).then(function () {
-                            time += 1000 / aniChart.frameRate;
-                            if (time > aniChart.duration() || !locatedFrame) {
-                                pauseAnimation();
-                                time = 0;
-                                if (gif) {
-                                    gif.on('finished', function (blob) {
-                                        window.open(URL.createObjectURL(blob));
-                                        $('#renderCover').hide();
-                                        pauseAnimation();
-                                        time = 0;
-                                    });
-                                    gif.render();
-                                    gif = null;
-                                }
-                            }
-                        });
-                    } else {
-                        time += 1000 / aniChart.frameRate;
-                        if (time > aniChart.duration() || !locatedFrame) {
-                            pauseAnimation();
-                            time = 0;
-                        }
+                    time += 1000 / canis.frameRate;
+                    if (time > canis.duration()) {
+                        pauseAnimation();
+                        time = 0;
                     }
-                }, 1000 / aniChart.frameRate);
+                }, 1000 / canis.frameRate);
+
+                lottie.play();
             }
 
             function pauseAnimation() {
@@ -283,6 +334,7 @@
                 $('#renderBtn').addClass('play-icon');
                 playing = false;
 
+                lottie.pause();
                 clearInterval(animationInterval);
                 animationInterval = 'undefined';
             }
@@ -291,13 +343,6 @@
                 resetPlayerWidgets(false);
                 $('#renderCover').show();
                 playAnimation();
-
-                gif = new GIF({
-                    workers: 4,
-                    // repeat: -1,
-                    quality: 2,
-                    workerScript: './js/lib/gif.worker.js'
-                })
             });
 
             /**

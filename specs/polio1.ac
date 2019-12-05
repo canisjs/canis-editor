@@ -1,7 +1,7 @@
 {
   "charts": [
     {
-      "source": "./charts/charticulator/polio.dsvg"
+      "source": "./charts/polio.dsvg"
     }
   ],
   "animations": [

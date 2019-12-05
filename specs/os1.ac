@@ -1,7 +1,7 @@
 {
     "charts": [
         {
-            "source": "./charts/charticulator/os.dsvg"
+            "source": "./charts/os.dsvg"
         }
     ],
     "animations": [
@@ -29,7 +29,7 @@
             "actions": [
                 {
                     "type": "fade",
-                    "duration": 600
+                    "duration": 400
                 }
             ]
         },
@@ -37,30 +37,39 @@
             "reference": "start after previous",
             "selection": ".rectangle",
             "grouping":{
-                "groupBy": "Year",
+                "groupBy": "OperatingSystem",
                 "reference": "start after previous",
-                "delay": 600
+                "grouping": {
+                    "groupBy": "Year",
+                    "reference": "start after previous",
+                    "delay": 400
+                }
             },
             "actions": [
                 {
                     "type": "fade",
-                    "duration": 600
+                    "duration": 400
                 }
             ]
         },
         {
-            "offset": 600,
+            "offset": 400,
             "selection": ".link",
-            "grouping":{
-                "groupBy": "Year",
+            "grouping": {
+                "groupBy": "OperatingSystem",
                 "reference": "start after previous",
-                "delay": 600
+                "delay": 800,
+                "grouping": {
+                    "groupBy": "Year",
+                    "reference": "start after previous",
+                    "delay": 400
+                }
             },
             "actions": [
                 {
                     "type": "wipe left",
                     "easing": "easeOutCubic",
-                    "duration": 600
+                    "duration": 400
                 }
             ]
         }

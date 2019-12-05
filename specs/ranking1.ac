@@ -1,29 +1,24 @@
 {
     "charts": [
         {
-            "source": "./charts/demo/ranking/comp2010",
+            "source": "./charts/barRace/comp2010",
             "start": 1,
             "end": 9
         },
         {
-            "source": "./charts/demo/ranking/comp2011",
-            "start": 1,
-            "end": 11
-        },
-        {
-            "source": "./charts/demo/ranking/comp2012",
+            "source": "./charts/barRace/comp2011",
             "start": 1,
             "end": 9
         },
         {
-            "source": "./charts/demo/ranking/comp2013",
+            "source": "./charts/barRace/comp2012",
             "start": 1,
-            "end": 10
+            "end": 9
         },
         {
-            "source": "./charts/demo/ranking/comp2014",
+            "source": "./charts/barRace/comp2013",
             "start": 1,
-            "end": 11
+            "end": 9
         }
     ],
     "animations": [
@@ -32,7 +27,7 @@
             "actions": [
                 {
                     "type": "magic move",
-                    "duration": 1000
+                    "duration": 600
                 }
             ]
         }

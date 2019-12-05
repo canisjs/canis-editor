@@ -1,10 +1,10 @@
 {
     "charts": [
         {
-            "source": "./charts/charticulator/polio_s1.dsvg"
+            "source": "./charts/polio_s1.dsvg"
         },
         {
-            "source": "./charts/charticulator/polio_s2.dsvg"
+            "source": "./charts/polio_s2.dsvg"
         }
     ],
     "animations": [

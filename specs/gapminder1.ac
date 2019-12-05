@@ -1,34 +1,9 @@
 {
     "charts": [
         {
-            "source": "./charts/vega/1955.dsvg"
-        },
-        {
-            "source": "./charts/vega/1960.dsvg"
-        },
-        {
-            "source": "./charts/vega/1965.dsvg"
-        },
-        {
-            "source": "./charts/vega/1970.dsvg"
-        },
-        {
-            "source": "./charts/vega/1975.dsvg"
-        },
-        {
-            "source": "./charts/vega/1980.dsvg"
-        },
-        {
-            "source": "./charts/vega/1985.dsvg"
-        },
-        {
-            "source": "./charts/vega/1990.dsvg"
-        },
-        {
-            "source": "./charts/vega/1995.dsvg"
-        },
-        {
-            "source": "./charts/vega/2000.dsvg"
+            "source": "./charts/gapminder/g",
+            "start": 0,
+            "end": 10
         }
     ],
     "animations": [

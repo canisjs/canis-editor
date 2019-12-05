@@ -1,7 +1,7 @@
 {
     "charts": [
         {
-            "source": "./charts/charticulator/purchases.dsvg"
+            "source": "./charts/purchases.dsvg"
         }
     ],
     "animations": [
@@ -33,7 +33,7 @@
             "grouping": {
                 "groupBy": "year",
                 "reference": "start after previous",
-                "delay": 600
+                "delay": 400
             },
             "actions": [
                 {
@@ -43,17 +43,14 @@
             ]
         },
         {
-            "offset": 200,
             "selection": ".link",
             "grouping": {
                 "groupBy": "id",
-                "reference": "start after previous",
-                "delay": 200
+                "reference": "start after previous"
             },
             "actions": [
                 {
                     "type": "grow",
-                    "easing": "easeOutCubic",
                     "duration": 600
                 }
             ]

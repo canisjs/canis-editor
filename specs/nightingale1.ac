@@ -1,0 +1,26 @@
+{
+  "charts": [
+    {
+      "source": "./charts/nightingale.dsvg"
+    }
+  ],
+  "animations": [
+    {
+      "selection": ".rectangle",
+      "grouping": {
+        "groupBy": "Type",
+        "reference": "start after previous",
+        "grouping": {
+            "groupBy": "id",
+            "delay": 200
+        }
+      },
+      "actions": [
+        {
+          "type": "wheel",
+          "duration": 600
+        }
+      ]
+    }
+  ]
+}

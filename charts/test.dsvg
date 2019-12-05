@@ -1,7 +1,0 @@
-<svg id="visChart" x="0" y="0" width="900" height="450" viewBox="0 0 900.000000 600.000000" 
-    xmlns="http://www.w3.org/2000/svg" 
-    xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" data-reactroot="">
-    <g id="chartContent" transform="translate(450.000000,300.000000)">
-        <circle id="mark366" class=" mark Symbol1 symbol" style="stroke:none;stroke-opacity:1;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;fill:rgb(158,202,225);fill-opacity:1;text-anchor:start;opacity:0.7;cursor:pointer;pointer-events:all" cx="4.797143201716801" cy="-111.40057743560624" r="50" data-datum="{&quot;_TYPE&quot;:&quot;symbol&quot;,&quot;_MARKID&quot;:&quot;Symbol1&quot;,&quot;_x&quot;:2.4657534246575343,&quot;_y&quot;:115.63985716189637,&quot;DATE&quot;:&quot;1/3/2015&quot;,&quot;City&quot;:&quot;Boston&quot;,&quot;Avg Temperature&quot;:-2.1,&quot;Min Temperature&quot;:-6.9,&quot;Max Temperature&quot;:2.72,&quot;Precipitation&quot;:2.56,&quot;Avg daily wind speed&quot;:2.73,&quot;Snowfall&quot;:6.24,&quot;Snow Depth&quot;:6.56}"></circle>
-    </g>
-</svg>

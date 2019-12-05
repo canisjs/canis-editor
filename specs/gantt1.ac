@@ -1,7 +1,7 @@
 {
     "charts": [
         {
-            "source": "./charts/charticulator/gantt.dsvg"
+            "source": "./charts/gantt.dsvg"
         }
     ],
     "animations": [

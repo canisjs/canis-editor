@@ -2,19 +2,19 @@
   "charts": [
     {
       "id": "africa",
-      "source": "./charts/demo/gapminder/eva_gap2_africa_",
+      "source": "./charts/gapminder/eva_gap2_africa_",
       "start": 0,
       "end": 9
     },
     {
       "id": "america",
-      "source": "./charts/demo/gapminder/eva_gap2_america_",
+      "source": "./charts/gapminder/eva_gap2_america_",
       "start": 0,
       "end": 9
     },
     {
       "id": "asia",
-      "source": "./charts/demo/gapminder/eva_gap2_asia_",
+      "source": "./charts/gapminder/eva_gap2_asia_",
       "start": 0,
       "end": 9
     }
