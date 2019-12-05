@@ -6714,7 +6714,6 @@ function () {
     this._animations;
     this.chartWidth;
     this.chartHeight;
-    this.lottieJson;
   }
 
   _createClass(Canis, [{
@@ -6748,7 +6747,6 @@ function () {
 
       document.getElementById('chartContainer').innerHTML = '';
       document.getElementById('chartContainer').appendChild(svgChart);
-      console.log('processed input chart: ', svgChart);
 
       _ChartSpec.default.addLottieMarkLayers(svgChart); // let bBoxes = ChartSpec.getBBoxes();
       // let animateChart = ChartSpec.processAnimateChart(document.getElementById('chartContainer').innerHTML, bBoxes);
@@ -6904,9 +6902,8 @@ function () {
 
       var lottieJSON = _GlobalVar.globalVar.jsMovin.toJSON();
 
-      this.lottieJson = lottieJSON; // console.log(this.lottieJson);
-
-      return JSON.parse(this.lottieJson);
+      Canis.lottieJSON = lottieJSON;
+      return JSON.parse(lottieJSON);
     }
   }, {
     key: "animations",
@@ -6967,6 +6964,7 @@ function () {
   return Canis;
 }();
 
+Canis.lottieJSON = '';
 var _default = Canis;
 exports.default = _default;
 module.exports = exports["default"];
@@ -7285,9 +7283,9 @@ function () {
 
       if (ChartSpec.changedAttrs.indexOf('d') >= 0) {
         diffCmds = _Util.Util.findDiffCmds(markStatus);
-      }
+      } // console.log('changed attributes: ', ChartSpec.changedAttrs);
+      //add missing marks to each chart
 
-      console.log('changed attributes: ', ChartSpec.changedAttrs); //add missing marks to each chart
 
       allMarks = Array.from(allMarks);
       ChartSpec.markDoms.clear();
@@ -7296,7 +7294,7 @@ function () {
         for (var _j3 = 0; _j3 < allMarks.length; _j3++) {
           if (ChartSpec.charts[i].querySelectorAll('#' + allMarks[_j3]).length === 0) {
             //chart i does not have mark j
-            console.log('chart ' + i + ' doesnt have mark' + allMarks[_j3]);
+            // console.log('chart ' + i + ' doesnt have mark' + allMarks[j]);
             var markStr = markTempletes.get(allMarks[_j3]);
             var tmpDiv = document.createElement('div');
             tmpDiv.innerHTML = markStr;
@@ -7367,7 +7365,6 @@ function () {
 
           for (var _a = 0; _a < ChartSpec.changedAttrs.length; _a++) {
             if (['width', 'height', 'r'].includes(ChartSpec.changedAttrs[_a])) {
-              // console.log(statusArr[si][ChartSpec.changedAttrs[a]], typeof statusArr[si][ChartSpec.changedAttrs[a]]);
               tmpStatus[ChartSpec.changedAttrs[_a]] = 100 * statusArr[si][ChartSpec.changedAttrs[_a]] / statusArr[0][ChartSpec.changedAttrs[_a]];
             } else {
               tmpStatus[ChartSpec.changedAttrs[_a]] = statusArr[si][ChartSpec.changedAttrs[_a]];
@@ -8339,24 +8336,26 @@ window.canis = {
   duration: function duration() {
     return Animation.wholeEndTime;
   },
-  loadSpec: function loadSpec(url, callback) {
-    Canis.loadSpec(url, callback);
-  },
+  // loadSpec: (url, callback) => {
+  //     Canis.loadSpec(url, callback);
+  // },
   renderSpec: function renderSpec(spec) {
     var canisObj = new Canis();
     canisObj.init(spec);
     return canisObj.render();
   },
-  play: function play() {
-    Renderer.play();
-  },
-  renderFrame: function renderFrame(time) {
-    //render frame of a specific timepoint
-    return Renderer.renderFrame(time);
-  },
+  // play: () => {
+  //     Renderer.play();
+  // },
+  // renderFrame: (time) => {//render frame of a specific timepoint
+  //     return Renderer.renderFrame(time);
+  // },
   reset: function reset() {
     Renderer.resetCover();
     Animation.resetAll();
+  },
+  exportJSON: function exportJSON() {
+    return Canis.lottieJSON;
   },
   test: function test(spec) {
     console.log('this is a test! ', spec);

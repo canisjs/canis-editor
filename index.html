@@ -123,6 +123,7 @@
                 language: 'json'
             });
 
+            let dataName = '';
             //play or stop animation
             let playing = false;
             //current time
@@ -132,7 +133,7 @@
             let gif = null;
 
             $(function () {
-                let dataName = 'mushroom', specIdx = 1;
+                dataName = 'mushroom', specIdx = 1;
 
                 //check whether the user came from the project page
                 let thisURL = document.URL;
@@ -187,7 +188,7 @@
             //data selection
             $('#dataSelection').change(function () {
                 let selection = $(this).children('option:selected').val().split('_');
-                let dataName = selection[0];
+                dataName = selection[0];
                 let animationIdx = selection[1];
                 loadJson(dataName, animationIdx);
                 pauseAnimation();
@@ -256,14 +257,6 @@
                     playAnimation();
                 }
             })
-
-            // $('#playBtnContainer').click(function () {
-            //     if (playing) {
-            //         pauseAnimation();
-            //     } else {
-            //         playAnimation();
-            //     }
-            // })
 
             //timeline slider
             $('#slider').mousedown(function () {
@@ -340,9 +333,9 @@
             }
 
             $('#exportBtn').click(function () {
-                resetPlayerWidgets(false);
-                $('#renderCover').show();
-                playAnimation();
+                const lottieJSON = canis.exportJSON();
+                const outputFileName = dataName + '.json';
+                Util.saveJSON(JSON.parse(lottieJSON), outputFileName);
             });
 
             /**
