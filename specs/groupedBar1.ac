@@ -18,7 +18,8 @@
             },
             "actions": [
                 {
-                    "type": "wipe bottom"
+                    "type": "wipe bottom",
+                    "duration": 300
                 }
             ]
         }
