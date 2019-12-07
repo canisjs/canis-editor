@@ -118,6 +118,10 @@
 
     <script src='js/lib/monaco-editor/min/vs/loader.js'></script>
     <script>
+        window.onload = () => {
+            $('#loadingCover').css('display', 'none');
+        }
+
         require.config({ paths: { 'vs': 'js/lib/monaco-editor/min/vs' } });
         require(['vs/editor/editor.main'], function () {
             editorValue = '';
@@ -167,7 +171,6 @@
             })
 
             function loadJson(dataName, animationIdx, callback) {
-                console.log('in test');
                 $('#loadingCover').css('display', 'block');
                 console.log($('#loadingCover'))
                 $.getJSON('specs/' + dataName + animationIdx + '.ac', function (data) {
@@ -188,11 +191,11 @@
                     loop: false,
                     autoplay: false,
                     animationData: canisSpec // the animation data
-                    
+
                 });
             }
 
-            function loadEnd(){
+            function loadEnd() {
                 $('#loadingCover').css('display', 'none');
             }
 
@@ -253,7 +256,7 @@
                     //reset vars
                     resetPlayerWidgets();
                     canis.reset();
-                    let canisSpec = canis.renderSpec(JSON.parse(currentValue), loadEnd );
+                    let canisSpec = canis.renderSpec(JSON.parse(currentValue), loadEnd);
                     //render lottie
                     lottie.destroy();
                     lottie.loadAnimation({
