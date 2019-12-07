@@ -136,7 +136,7 @@
             let gif = null;
 
             $(function () {
-                dataName = 'groupedBar', specIdx = 1;
+                dataName = 'ranking', specIdx = 1;
 
                 //check whether the user came from the project page
                 let thisURL = document.URL;
@@ -175,11 +175,11 @@
                 })
             }
 
-            function updateEditorAndLoadAni(data) {
+            async function updateEditorAndLoadAni(data) {
                 let jsonStr = JSON.stringify(data, null, 2);
                 editor.setValue(jsonStr);
                 editorValue = jsonStr;
-                let canisSpec = canis.renderSpec(data, loadEnd);
+                let canisSpec = await canis.renderSpec(data, loadEnd);
                 //render lottie
                 lottie.destroy();
                 let tmpAni = lottie.loadAnimation({

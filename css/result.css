@@ -41,6 +41,11 @@
     background: #fff;
 }
 
+.chart-container svg, .video-container svg {
+    max-height: 500px;
+    max-width: 1200px;
+}
+
 .result-title {
     box-sizing: border-box;
     width: 100%;
@@ -63,7 +68,6 @@
     background: #fff;
     font-family: "Roboto", "Helvetica", "Arial", sans-serif;
 }
-
 
 .hidden {
     display: none;
