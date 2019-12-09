@@ -20612,12 +20612,12 @@ function () {
                 if (_ni2 === anums.length - 2) {
                   //x
                   resultCmd = this.calNumTrans(resultCmd, diffCmds, i, cmdName, anums[_ni2], reset, parseFloat(resetX) + 1, tx);
-                  resultCmd += ',';
+                  resultCmd += ' ';
                 } else if (_ni2 === anums.length - 1) {
                   //y
                   resultCmd = this.calNumTrans(resultCmd, diffCmds, i, cmdName, anums[_ni2], reset, parseFloat(resetY) + 1, ty);
                 } else {
-                  resultCmd += anums[_ni2] + ',';
+                  resultCmd += anums[_ni2] + ' ';
                 }
               }
 
@@ -20630,12 +20630,12 @@ function () {
                 if (_ni3 === anums2.length - 2) {
                   //x
                   resultCmd = this.calNumTrans(resultCmd, diffCmds, i, cmdName, anums2[_ni3], reset, '1', 0);
-                  resultCmd += ',';
+                  resultCmd += ' ';
                 } else if (_ni3 === anums2.length - 1) {
                   //y
                   resultCmd = this.calNumTrans(resultCmd, diffCmds, i, cmdName, anums2[_ni3], reset, '1', 0);
                 } else {
-                  resultCmd += anums2[_ni3] + ',';
+                  resultCmd += anums2[_ni3] + ' ';
                 }
               }
 
