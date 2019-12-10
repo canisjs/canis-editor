@@ -44,17 +44,6 @@
           "duration": 600
         }
       ]
-    },
-    {
-        "offset": 1000,
-        "reference": "start after previous",
-      "selection": ".symbol",
-      "actions": [
-        {
-          "type": "fade out",
-          "duration": 600
-        }
-      ]
     }
   ]
 }
