@@ -11,36 +11,47 @@
         "groupBy": "Surface",
         "reference": "start after previous",
         "sort": {
-            "order": [
-                "Smooth",
-                "Scaly",
-                "Fibrous"
-            ]
+          "order": [
+            "Smooth",
+            "Scaly",
+            "Fibrous"
+          ]
         },
         "grouping": {
-            "groupBy": "Odor",
-            "reference": "start after previous",
-            "sort": {
-                "order": [
-                    "Almond",
-                    "Anise",
-                    "Creosote",
-                    "Fishy",
-                    "Foul",
-                    "None",
-                    "Pungent",
-                    "Spicy"
-                ]
-            },
-            "grouping": {
-                "groupBy": "IsEdible",
-                "reference": "start after previous"
-            }
+          "groupBy": "Odor",
+          "reference": "start after previous",
+          "sort": {
+            "order": [
+              "Almond",
+              "Anise",
+              "Creosote",
+              "Fishy",
+              "Foul",
+              "None",
+              "Pungent",
+              "Spicy"
+            ]
+          },
+          "grouping": {
+            "groupBy": "IsEdible",
+            "reference": "start after previous"
+          }
         }
       },
       "actions": [
         {
           "type": "fade",
+          "duration": 600
+        }
+      ]
+    },
+    {
+        "offset": 1000,
+        "reference": "start after previous",
+      "selection": ".symbol",
+      "actions": [
+        {
+          "type": "fade out",
           "duration": 600
         }
       ]

@@ -2,11 +2,11 @@
 	if(typeof exports === 'object' && typeof module === 'object')
 		module.exports = factory();
 	else if(typeof define === 'function' && define.amd)
-		define("anichart", [], factory);
+		define("canis_toolkit", [], factory);
 	else if(typeof exports === 'object')
-		exports["anichart"] = factory();
+		exports["canis_toolkit"] = factory();
 	else
-		root["anichart"] = factory();
+		root["canis_toolkit"] = factory();
 })(window, function() {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
@@ -16808,6 +16808,7 @@ function (_TimingSpec) {
         this.selection = animationJson.selection; //init selection
 
         this.reference = animationJson.reference;
+        console.log('animation ref: ', animationJson.reference);
         this.offset = animationJson.offset;
 
         if (typeof animationJson.grouping !== 'undefined') {
@@ -17190,7 +17191,8 @@ function (_TimingSpec) {
             item.duration = that.wholeEndTime - item.startTime;
           }
         }
-      }); // console.log('all mark ani: ', this.allMarkAni);
+      });
+      console.log('all mark ani: ', this.allMarkAni);
     }
   }, {
     key: "translateToLottieChannel",
@@ -17243,6 +17245,8 @@ function (_TimingSpec) {
 
           if (tmpActionSpec.duration > 0) {
             var targetMark = document.getElementById(markId); //TODO: pass dom here
+            // if (markId === 'mark11')
+            //     console.log(tmpActionSpec)
 
             if (tmpActionSpec.type === _ActionSpec.default.actionTargets.mark) {
               //TODO: consider 'custom'
@@ -17309,6 +17313,7 @@ function (_TimingSpec) {
                           fromValue = toValue = [0, 0, 0, 0];
                         }
                       } else if (lc === 'opacity') {
+                        // console.log(markId, toValue, typeof toValue);
                         fromValue *= 100;
                         toValue *= 100;
                       }
@@ -17323,6 +17328,8 @@ function (_TimingSpec) {
                   }
                 } else {
                   //if not custom, then attrName is already lottie channels
+                  console.log(markId, startFrame, endFrame, attr.from, attr.to);
+
                   _GlobalVar.globalVar.markLayers.get(markId).setAnimatableProperty(attr.attrName, startFrame, endFrame, attr.from * 100, attr.to * 100, _ActionSpec.default.transToLottieAction(tmpActionSpec.easing));
                 }
               });
@@ -21045,4 +21052,4 @@ exports.AssetTemplate = AssetTemplate;
 
 /******/ });
 });
-//# sourceMappingURL=anichart.js.map
+//# sourceMappingURL=canis_toolkit.js.map

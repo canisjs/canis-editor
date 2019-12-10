@@ -3,12 +3,12 @@
         {
             "source": "./charts/barRace/comp2010",
             "start": 1,
-            "end": 9
+            "end": 2
         },
         {
-            "source": "./charts/barRace/comp2013",
+            "source": "./charts/barRace/comp2011",
             "start": 1,
-            "end": 9
+            "end": 2
         }
     ],
     "animations": [

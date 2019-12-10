@@ -12,8 +12,8 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
     <script src='js/lib/jquery-3.3.1.min.js'></script>
-    <!-- <script src='js/lib/anichart.min.js'></script> -->
-    <script src='js/lib/anichart.js'></script>
+    <script src='js/lib/canis_toolkit.min.js'></script>
+    <!-- <script src='js/lib/canis_toolkit.js'></script> -->
     <script src='js/util/Util.js'></script>
     <!-- <script src="js/lib/lottie.js" type="text/javascript"></script> -->
     <script src="js/lib/lottie.min.js" type="text/javascript"></script>
@@ -69,7 +69,7 @@
                             <option value='gantt_1'>2. Event Planning</option>
                             <option value='purchases_1'>3. Doughnut Purchases</option>
                             <option value='os_1'>4. Mobile Operating System Market Share</option>
-                            <option value='ranking_1'>5. Top 10 Best Global Brands Ranking</option>
+                            <!-- <option value='ranking_1'>5. Top 10 Best Global Brands Ranking</option> -->
                             <option value='drill_1'>6. Ebay Motorcycle Listings</option>
                             <option value='nightingale_1'>7. Causes of Mortality over Time</option>
                             <option value='polioTrans_1'>8. Polio Incidence Rates of the United States</option>
@@ -136,7 +136,7 @@
             //current time
             let time = 0;
             const zeroTime = '00.00';
-
+            let lottieAni;
             let gif = null;
 
             $(function () {
@@ -184,7 +184,7 @@
                 let canisSpec = await canis.renderSpec(data, loadEnd);
                 //render lottie
                 lottie.destroy();
-                let tmpAni = lottie.loadAnimation({
+                lottieAni = lottie.loadAnimation({
                     container: document.getElementById('lottieRender'),
                     renderer: 'svg',
                     loop: false,
@@ -244,7 +244,7 @@
             })
 
             //render function
-            $('#renderBtn').click(function () {
+            $('#renderBtn').click(async function () {
                 let currentValue = editor.getValue();
                 if (playing) {
                     pauseAnimation();
@@ -255,10 +255,10 @@
                     //reset vars
                     resetPlayerWidgets();
                     canis.reset();
-                    let canisSpec = canis.renderSpec(JSON.parse(currentValue), loadEnd);
+                    let canisSpec = await canis.renderSpec(JSON.parse(currentValue), loadEnd);
                     //render lottie
                     lottie.destroy();
-                    lottie.loadAnimation({
+                    lottieAni = lottie.loadAnimation({
                         container: document.getElementById('lottieRender'),
                         renderer: 'svg',
                         loop: false,
@@ -303,7 +303,7 @@
                 time = parseInt(canis.duration() * ratio / (1000 / canis.frameRate)) * (1000 / canis.frameRate);
                 $('#currentTime').text(Util.formatTime(time));
                 currentFrame = Math.ceil(time / (1000 / canis.frameRate));
-                lottie.goToAndStop(currentFrame, true);
+                lottieAni.goToAndStop(currentFrame, true);
             })
 
             let animationInterval;
@@ -312,7 +312,7 @@
                     $('#endTime').text(Util.formatTime(canis.duration()));
                 }
                 if (time === 0) {
-                    lottie.stop();
+                    lottieAni.stop();
                 }
                 $('#renderBtn').attr('title', 'pause');
                 $('#renderBtn').removeClass('play-icon');
@@ -331,7 +331,7 @@
                     }
                 }, 1000 / canis.frameRate);
 
-                lottie.play();
+                lottieAni.play();
             }
 
             function pauseAnimation() {
@@ -340,7 +340,7 @@
                 $('#renderBtn').addClass('play-icon');
                 playing = false;
 
-                lottie.pause();
+                lottieAni.pause();
                 clearInterval(animationInterval);
                 animationInterval = 'undefined';
             }
@@ -364,7 +364,7 @@
                 }
             }
 
-            $('#help').click(() => window.location.href = 'http://www.njvis.net/AniChartWeb/tutorial.html');
+            $('#help').click(() => window.location.href = 'https://canisjs.github.io/tutorial.html');
         });
 
 
