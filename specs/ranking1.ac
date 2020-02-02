@@ -13,8 +13,8 @@
     ],
     "animations": [
         {
-            "selection": ".icon, .rectangle, .text",
-            "actions": [
+            "selector": ".icon, .rectangle, .text",
+            "effects": [
                 {
                     "type": "magic move",
                     "duration": 600

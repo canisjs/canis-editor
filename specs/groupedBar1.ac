@@ -6,7 +6,7 @@
     ],
     "animations": [
         {
-            "selection": ".rectangle",
+            "selector": ".rectangle",
             "grouping": {
                 "groupBy": "position",
                 "reference": "start after previous",
@@ -16,7 +16,7 @@
                     "delay": 100
                 }
             },
-            "actions": [
+            "effects": [
                 {
                     "type": "wipe bottom",
                     "duration": 300

@@ -6,7 +6,7 @@
   ],
   "animations": [
     {
-      "selection": ".symbol",
+      "selector": ".symbol",
       "grouping": {
         "groupBy": "Surface",
         "reference": "start after previous",
@@ -38,7 +38,7 @@
           }
         }
       },
-      "actions": [
+      "effects": [
         {
           "type": "fade",
           "duration": 600

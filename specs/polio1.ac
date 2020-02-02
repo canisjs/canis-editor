@@ -6,7 +6,7 @@
   ],
   "animations": [
     {
-      "selection": ".symbol",
+      "selector": ".symbol",
       "grouping": {
         "groupBy": "id",
         "sort": {
@@ -15,7 +15,7 @@
         },
         "delay": 50
       },
-      "actions": [
+      "effects": [
         {
           "type": "fade",
           "easing": "easeOutCubic",

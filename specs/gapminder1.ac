@@ -8,8 +8,8 @@
     ],
     "animations": [
         {
-            "selection": ".path, .text",
-            "actions": [
+            "selector": ".path, .text",
+            "effects": [
                 {
                     "type": "magic move",
                     "duration": 1000
