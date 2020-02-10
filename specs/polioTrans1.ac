@@ -10,8 +10,8 @@
     "animations": [
         {
             "selector": ".symbol, .text",
-            "grouping" : {
-                "groupBy" : "Year",
+            "grouping": {
+                "groupBy": "Year",
                 "delay": 200
             },
             "effects": [

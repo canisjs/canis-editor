@@ -16,8 +16,8 @@
             "effects": [
                 {
                     "offset": 600,
-                    "type": "magic move",
-                    "duration": 1600
+                    "duration": 1600,
+                    "type": "magic move"
                 }
             ]
         }

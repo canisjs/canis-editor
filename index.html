@@ -60,52 +60,72 @@
             </div>
         </section>
         <section class='main-wrapper'>
-            <!-- editor -->
-            <div class='editor-outter-wrapper'>
-                <div class='editor-header'>
-                    <div class='select-wrapper'>
-                        <select id='dataSelection' class='spec-selector' title='select example'>
-                            <option value='groupedBar_1'>0. Fruit Sale</option>
-                            <option selected value='mushroom_1'>1. Characteristics of Mushrooms</option>
-                            <option value='gantt_1'>2. Event Planning</option>
-                            <option value='purchases_1'>3. Doughnut Purchases</option>
-                            <option value='os_1'>4. Mobile Operating System Market Share</option>
-                            <option value='ranking_1'>5. Top 10 Best Global Brands Ranking</option>
-                            <option value='drill_1'>6. Ebay Motorcycle Listings</option>
-                            <option value='nightingale_1'>7. Causes of Mortality over Time</option>
-                            <option value='polioTrans_1'>8. Polio Incidence Rates of the United States</option>
-                            <option value='polio_1'>9. Polio Incidence Rates of the United States in 1950s</option>
-                            <option value='gapminder_1'>10. Trend of Life expectancy with the Development of Fertility
-                            </option>
-                            <option value='gapminder_2'>11. Trend of Life expectancy with the Changing of GDP</option>
-                        </select>
+            <div class='left-panel'>
+                <!-- editor -->
+                <div class='editor-outter-wrapper'>
+                    <div class='upper-panel'>
+                        <div class='editor-header'>
+                            <div class='select-wrapper'>
+                                <select id='dataSelection' class='spec-selector' title='select example'>
+                                    <option value='groupedBar_1'>0. Fruit Sale</option>
+                                    <option selected value='mushroom_1'>1. Characteristics of Mushrooms</option>
+                                    <option value='gantt_1'>2. Event Planning</option>
+                                    <option value='purchases_1'>3. Doughnut Purchases</option>
+                                    <option value='os_1'>4. Mobile Operating System Market Share</option>
+                                    <option value='ranking_1'>5. Top 10 Best Global Brands Ranking</option>
+                                    <option value='drill_1'>6. Ebay Motorcycle Listings</option>
+                                    <option value='nightingale_1'>7. Causes of Mortality over Time</option>
+                                    <option value='polioTrans_1'>8. Polio Incidence Rates of the United States</option>
+                                    <option value='polio_1'>9. Polio Incidence Rates of the United States in 1950s
+                                    </option>
+                                    <option value='gapminder_1'>10. Trend of Life expectancy with the Development of
+                                        Fertility
+                                    </option>
+                                    <option value='gapminder_2'>11. Trend of Life expectancy with the Changing of GDP
+                                    </option>
+                                </select>
+                            </div>
+                        </div>
+                        <div id='specContainer' class='editor-inner-wrapper'></div>
                     </div>
-                </div>
-                <div id='specContainer' class='editor-inner-wrapper'></div>
-                <div class='console-wrapper'>
-                    <div class='window-title'>
-                        <span class='window-title-content'>console</span>
+                    <div class='resizer v-resizer'>
+                        <div class='resize-bar'></div>
                     </div>
-                    <div id='consoleContainerId' class='console-container'></div>
+                    <div class='below-panel'>
+                        <div class='console-wrapper'>
+                            <div class='window-title'>
+                                <span class='window-title-content'>console</span>
+                            </div>
+                            <div id='consoleContainerId' class='console-container'></div>
+                        </div>
+                    </div>
                 </div>
             </div>
-
-            <!-- result -->
-            <div class='result-wrapper'>
-                <!-- <div id='lottieRender' style='height:500px;'></div> -->
-                <div id='chartWrapper' class='chart-wrapper'>
-                    <div class='window-title'>
-                        <span class='window-title-content'>Chart</span>
-                        <!-- <span id='chartFoldBtn' class='rect-button fold-icon' title='fold visualization chart'></span> -->
+            <div class='resizer h-resizer'>
+                <div class='resize-bar'></div>
+            </div>
+            <div class='right-panel'>
+                <!-- result -->
+                <div class='result-wrapper'>
+                    <div class='upper-panel'>
+                        <div id='chartWrapper' class='chart-wrapper'>
+                            <div class='window-title'>
+                                <span class='window-title-content'>Chart</span>
+                                <!-- <span id='chartFoldBtn' class='rect-button fold-icon' title='fold visualization chart'></span> -->
+                            </div>
+                            <div id='chartContainer' class='chart-container'></div>
+                        </div>
                     </div>
-                    <div id='chartContainer' class='chart-container'></div>
-                </div>
-                <div id='videoWrapper' class='video-wrapper'>
-                    <div class='window-title'>
-                        <span class='window-title-content'>Result Animation</span>
-                        <!-- <span id='videoFoldBtn' class='rect-button fold-icon' title='fold result animation'></span> -->
+                    <div class='resizer v-resizer'>
+                        <div class='resize-bar'></div>
                     </div>
-                    <div id='lottieRender' class='video-container'></div>
+                    <div class='below-panel'>
+                        <div class='window-title'>
+                            <span class='window-title-content'>Result Animation</span>
+                            <!-- <span id='videoFoldBtn' class='rect-button fold-icon' title='fold result animation'></span> -->
+                        </div>
+                        <div id='lottieRender' class='video-container'></div>
+                    </div>
                 </div>
                 <div id='controlContainer' class='control-container'>
                     <div id='timelineContainer' class='timeline-container'>
@@ -120,14 +140,57 @@
                     </div>
                 </div>
             </div>
-        </section>
+    </div>
+    </section>
     </div>
 
     <script src='js/lib/monaco-editor/min/vs/loader.js'></script>
     <script>
+        let editor, status;
         window.onload = () => {
             $('#loadingCover').css('display', 'none');
-            status.consoleContainerId = 'consoleContainerId';
+            [].forEach.call(document.getElementsByClassName('resizer'), r => {
+                const resizeType = r.className.split(' ')[1];
+                r.onmousedown = (downEvt) => {
+                    const wrapperBBox = {
+                        width: r.parentElement.offsetWidth,
+                        height: r.parentElement.offsetHeight
+                    }
+                    downEvt.preventDefault();
+                    let downPosi = {
+                        x: downEvt.pageX,
+                        y: downEvt.pageY
+                    }
+                    document.onmousemove = (moveEvt) => {
+                        const movePosi = {
+                            x: moveEvt.pageX,
+                            y: moveEvt.pageY
+                        }
+                        const dis = {
+                            xDiff: movePosi.x - downPosi.x,
+                            yDiff: movePosi.y - downPosi.y
+                        }
+                        if (resizeType === 'h-resizer') {
+                            const disPx = dis.xDiff
+                            const sty = r.previousElementSibling.currentStyle || window.getComputedStyle(r.previousElementSibling, null);
+                            const tmpWidth = parseFloat(sty.width.substring(0, sty.width.length - 2));
+                            r.previousElementSibling.style.width = (tmpWidth + disPx) + 'px';
+                            editor.layout();
+                        } else {
+                            const disPx = dis.yDiff;
+                            const sty = r.previousElementSibling.currentStyle || window.getComputedStyle(r.previousElementSibling, null);
+                            const tmpHeight = parseFloat(sty.height.substring(0, sty.height.length - 2));
+                            r.previousElementSibling.style.height = (tmpHeight + disPx) + 'px';
+                            editor.layout();
+                        }
+                        downPosi = movePosi;
+                    }
+                    document.onmouseup = (upEvt) => {
+                        document.onmousemove = null;
+                        document.onmouseup = null;
+                    }
+                }
+            })
         }
 
         require.config({
@@ -144,6 +207,7 @@
                         endLineNumber: position.lineNumber,
                         endColumn: position.column
                     });
+
                     const {
                         match,
                         autocompleteType
@@ -167,12 +231,17 @@
             });
 
             editorValue = '';
-            let editor = monaco.editor.create(document.getElementById('specContainer'), {
+            editor = monaco.editor.create(document.getElementById('specContainer'), {
                 value: '',
                 language: 'json',
                 tabSize: 2,
                 scrollBeyondLastLine: false,
+                quickSuggestions: {
+                    strings: true
+                }
             });
+
+            status = new Status('consoleContainerId', editor);
 
             $(window).resize(() => {
                 editor.layout();
@@ -222,12 +291,17 @@
                 $('#loadingCover').css('display', 'block');
                 $.getJSON('specs/' + dataName + animationIdx + '.ac', function (data) {
                     updateEditorAndLoadAni(data);
+                }).fail(function (jqxhr, textStatus, error) {
+                    const err = textStatus + ", " + error;
+                    console.log("Request Failed: " + err);
                 })
             }
 
             async function updateEditorAndLoadAni(data) {
                 let jsonStr = JSON.stringify(data, null, 2);
                 editor.setValue(jsonStr);
+                // editor.setSelection(new monaco.Selection(1, 2, 2, 10));
+                // editor.focus();
                 editorValue = jsonStr;
                 let canisSpec = await canis.renderSpec(data, status, loadEnd);
                 //render lottie
@@ -293,7 +367,27 @@
 
             //render function
             $('#renderBtn').click(async function () {
-                let currentValue = editor.getValue();
+                const currentValue = editor.getValue();
+                let charIdx = 0, lineNum = 1, colNum = 1;
+                status.specWithoutSpace = currentValue.replace(/[\s\r\n]/g, '');
+                status.charCheckMap.clear();
+                for (let i = 0, len = currentValue.length, tmpChar; i < len | (tmpChar = currentValue.charAt(i)); i++) {
+                    let isNul = tmpChar.match(/[\s\r\n]/) ? true : false;
+                    let isEnter = tmpChar.match(/[\r\n]/) ? true : false;
+
+                    if (!isNul) {//this char is not space or \n
+                        status.charCheckMap.set(charIdx, [lineNum, colNum]);
+                        console.log(charIdx, tmpChar, lineNum, colNum);
+                        charIdx++;
+                    }
+                    if (isEnter) {
+                        lineNum++;
+                        colNum = 1;
+                    } else {
+                        colNum++;
+                    }
+                }
+
                 if (playing) {
                     pauseAnimation();
                 } else if (editorValue === currentValue) {

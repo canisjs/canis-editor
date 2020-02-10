@@ -36,7 +36,7 @@
         {
             "reference": "start after previous",
             "selector": ".rectangle",
-            "grouping":{
+            "grouping": {
                 "groupBy": "OperatingSystem",
                 "reference": "start after previous",
                 "grouping": {

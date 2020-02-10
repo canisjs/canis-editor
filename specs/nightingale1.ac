@@ -1,26 +1,26 @@
 {
-  "charts": [
-    {
-      "source": "./charts/nightingale.dsvg"
-    }
-  ],
-  "animations": [
-    {
-      "selector": ".rectangle",
-      "grouping": {
-        "groupBy": "Type",
-        "reference": "start after previous",
-        "grouping": {
-            "groupBy": "id",
-            "delay": 200
-        }
-      },
-      "effects": [
+    "charts": [
         {
-          "type": "wheel",
-          "duration": 600
+            "source": "./charts/nightingale.dsvg"
         }
-      ]
-    }
-  ]
+    ],
+    "animations": [
+        {
+            "selector": ".rectangle",
+            "grouping": {
+                "groupBy": "Type",
+                "reference": "start after previous",
+                "grouping": {
+                    "groupBy": "id",
+                    "delay": 200
+                }
+            },
+            "effects": [
+                {
+                    "type": "wheel",
+                    "duration": 600
+                }
+            ]
+        }
+    ]
 }
