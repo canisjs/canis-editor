@@ -1,4 +1,14 @@
 {
+    "constants": [
+        {
+            "name": "unitTime",
+            "value": 600
+        },
+        {
+            "name": "fastDuration",
+            "value": 300
+        }
+    ],
     "charts": [
         {
             "source": "./charts/gantt.dsvg"
@@ -10,7 +20,7 @@
             "effects": [
                 {
                     "type": "grow",
-                    "duration": 300
+                    "duration": "fastDuration"
                 }
             ]
         },
@@ -19,7 +29,7 @@
             "selector": ".axis-tick, .axis-label",
             "effects": [
                 {
-                    "duration": 300,
+                    "duration": "fastDuration",
                     "type": "fade"
                 }
             ]
@@ -30,10 +40,10 @@
             "effects": [
                 {
                     "offset": {
-                        "field": "start",
-                        "minOffset": 600
+                        "field": "eventStartTime",
+                        "minOffset": "unitTime"
                     },
-                    "duration": 300,
+                    "duration": "fastDuration",
                     "type": "wipe left"
                 }
             ]
@@ -43,12 +53,12 @@
             "effects": [
                 {
                     "offset": {
-                        "field": "start",
-                        "minOffset": 600
+                        "field": "eventStartTime",
+                        "minOffset": "unitTime"
                     },
                     "duration": {
-                        "field": "duration",
-                        "minDuration": 600
+                        "field": "eventDurationTime",
+                        "minDuration": "unitTime"
                     },
                     "type": "wipe left"
                 }

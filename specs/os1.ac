@@ -1,4 +1,14 @@
 {
+    "constants": [
+        {
+            "name": "unitTime",
+            "value": 400
+        },
+        {
+            "name": "doubleUnitTime",
+            "value": 800
+        }
+    ],
     "charts": [
         {
             "source": "./charts/os.dsvg"
@@ -29,7 +39,7 @@
             "effects": [
                 {
                     "type": "fade",
-                    "duration": 400
+                    "duration": "unitTime"
                 }
             ]
         },
@@ -42,34 +52,34 @@
                 "grouping": {
                     "groupBy": "Year",
                     "reference": "start after previous",
-                    "delay": 400
+                    "delay": "unitTime"
                 }
             },
             "effects": [
                 {
                     "type": "fade",
-                    "duration": 400
+                    "duration": "unitTime"
                 }
             ]
         },
         {
-            "offset": 400,
+            "offset": "unitTime",
             "selector": ".link",
             "grouping": {
                 "groupBy": "OperatingSystem",
                 "reference": "start after previous",
-                "delay": 800,
+                "delay": "doubleUnitTime",
                 "grouping": {
                     "groupBy": "Year",
                     "reference": "start after previous",
-                    "delay": 400
+                    "delay": "unitTime"
                 }
             },
             "effects": [
                 {
                     "type": "wipe left",
                     "easing": "easeOutCubic",
-                    "duration": 400
+                    "duration": "unitTime"
                 }
             ]
         }

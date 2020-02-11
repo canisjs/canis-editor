@@ -50,7 +50,7 @@ html, body {
 .main-wrapper .left-panel {
     /* float: left; */
     height: 100%;
-    width: 490px;
+    width: 520px;
     min-width: 490px;
     /* width: calc(30% - 0.5px); */
 }

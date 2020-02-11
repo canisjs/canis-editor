@@ -1,4 +1,10 @@
 {
+    "constants": [
+        {
+            "name": "durationTime",
+            "value": 600
+        }
+    ],
     "charts": [
         {
             "source": "./charts/mushrooms.dsvg"
@@ -41,7 +47,7 @@
             "effects": [
                 {
                     "type": "fade",
-                    "duration": 600
+                    "duration": "durationTime"
                 }
             ]
         }
