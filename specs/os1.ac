@@ -3,10 +3,6 @@
         {
             "name": "unitTime",
             "value": 400
-        },
-        {
-            "name": "doubleUnitTime",
-            "value": 800
         }
     ],
     "charts": [
