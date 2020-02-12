@@ -68,7 +68,7 @@
             "grouping": {
                 "groupBy": "OperatingSystem",
                 "reference": "start after previous",
-                "delay": "doubleUnitTime",
+                "delay": "calc(unitTime*2)",
                 "grouping": {
                     "groupBy": "Year",
                     "reference": "start after previous",
