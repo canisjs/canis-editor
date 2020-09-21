@@ -9,12 +9,12 @@
     ],
     "animations": [
         {
-            "selection": ".symbol, .text",
+            "selector": ".symbol, .text",
             "grouping" : {
                 "groupBy" : "Year",
                 "delay": 200
             },
-            "actions": [
+            "effects": [
                 {
                     "type": "magic move",
                     "easing": "easeOutCubic",

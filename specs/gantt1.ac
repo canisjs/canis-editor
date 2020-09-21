@@ -6,8 +6,8 @@
     ],
     "animations": [
         {
-            "selection": ".axis-domain",
-            "actions": [
+            "selector": ".axis-domain",
+            "effects": [
                 {
                     "type": "grow",
                     "duration": 300
@@ -16,8 +16,8 @@
         },
         {
             "reference": "start after previous",
-            "selection": ".axis-tick, .axis-label",
-            "actions": [
+            "selector": ".axis-tick, .axis-label",
+            "effects": [
                 {
                     "type": "fade",
                     "duration": 300
@@ -26,8 +26,8 @@
         },
         {
             "reference": "start after previous",
-            "selection": ".text",
-            "actions": [
+            "selector": ".text",
+            "effects": [
                 {
                     "offset": {
                         "field": "start",
@@ -39,8 +39,8 @@
             ]
         },
         {
-            "selection": ".rectangle",
-            "actions": [
+            "selector": ".rectangle",
+            "effects": [
                 {
                     "offset": {
                         "field": "start",

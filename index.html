@@ -137,9 +137,10 @@
             const zeroTime = '00.00';
             let lottieAni;
             let gif = null;
+            let canisSpec = '';
 
             $(function () {
-                dataName = 'mushroom', specIdx = 2;
+                dataName = 'mushroom', specIdx = 1;
 
                 //check whether the user came from the project page
                 let thisURL = document.URL;
@@ -262,7 +263,6 @@
                         renderer: 'svg',
                         loop: false,
                         autoplay: false,
-                        // path: 'like.json' // the path to the animation json
                         animationData: canisSpec, // the animation data
                     });
 

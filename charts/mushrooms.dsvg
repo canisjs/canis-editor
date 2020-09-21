@@ -675,7 +675,7 @@
                 </g>
             </g>
             <g transform="translate(0,0)" opacity="1">
-                <g transform="translate(350,-172)" id="mark4001" class="mark legend" data-datum="{&quot;_TYPE&quot;:&quot;legend&quot;,&quot;fill&quot;:&quot;IsEdible&quot;,&quot;color&quot;:&quot;IsEdible&quot;}" opacity="1">
+                <g transform="translate(350,-172)" data-datum="{&quot;_TYPE&quot;:&quot;legend&quot;,&quot;fill&quot;:&quot;IsEdible&quot;,&quot;color&quot;:&quot;IsEdible&quot;}" opacity="1">
                     <g transform="translate(0,-24)" opacity="1">
                         <text x="29" y="-7.377204426324983" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="rgb(0,0,0)" fill-opacity="1" text-anchor="start" opacity="1" font-family="Arial" font-size="14px">Edible</text>
                         <path d="M 8,-4 L 8.00249333,-20.00231613 L 24.00303015,-20.00114246 L 24.00463083,-3.99586451 Z" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="rgb(107,174,214)" fill-opacity="1" text-anchor="start" opacity="1"></path>

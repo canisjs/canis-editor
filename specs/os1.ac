@@ -6,8 +6,8 @@
     ],
     "animations": [
         {
-            "selection": ".axis-domain",
-            "actions": [
+            "selector": ".axis-domain",
+            "effects": [
                 {
                     "type": "grow",
                     "duration": 1000
@@ -15,8 +15,8 @@
             ]
         },
         {
-            "selection": ".axis-tick, .axis-label",
-            "actions": [
+            "selector": ".axis-tick, .axis-label",
+            "effects": [
                 {
                     "type": "fade",
                     "duration": 1000
@@ -25,8 +25,8 @@
         },
         {
             "reference": "start after previous",
-            "selection": ".text",
-            "actions": [
+            "selector": ".text",
+            "effects": [
                 {
                     "type": "fade",
                     "duration": 400
@@ -35,7 +35,7 @@
         },
         {
             "reference": "start after previous",
-            "selection": ".rectangle",
+            "selector": ".rectangle",
             "grouping":{
                 "groupBy": "OperatingSystem",
                 "reference": "start after previous",
@@ -45,7 +45,7 @@
                     "delay": 400
                 }
             },
-            "actions": [
+            "effects": [
                 {
                     "type": "fade",
                     "duration": 400
@@ -54,7 +54,7 @@
         },
         {
             "offset": 400,
-            "selection": ".link",
+            "selector": ".link",
             "grouping": {
                 "groupBy": "OperatingSystem",
                 "reference": "start after previous",
@@ -65,7 +65,7 @@
                     "delay": 400
                 }
             },
-            "actions": [
+            "effects": [
                 {
                     "type": "wipe left",
                     "easing": "easeOutCubic",

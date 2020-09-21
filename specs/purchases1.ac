@@ -6,8 +6,8 @@
     ],
     "animations": [
         {
-            "selection": ".axis-domain",
-            "actions": [
+            "selector": ".axis-domain",
+            "effects": [
                 {
                     "type": "grow",
                     "duration": 1000
@@ -15,12 +15,12 @@
             ]
         },
         {
-            "selection": ".axis-tick, .axis-label",
+            "selector": ".axis-tick, .axis-label",
             "grouping": {
                 "groupBy": "id",
                 "delay": 100
             },
-            "actions": [
+            "effects": [
                 {
                     "type": "fade",
                     "duration": 600
@@ -29,13 +29,13 @@
         },
         {
             "reference": "start after previous",
-            "selection": ".symbol, .text",
+            "selector": ".symbol, .text",
             "grouping": {
                 "groupBy": "year",
                 "reference": "start after previous",
                 "delay": 400
             },
-            "actions": [
+            "effects": [
                 {
                     "type": "fade",
                     "duration": 200
@@ -43,12 +43,12 @@
             ]
         },
         {
-            "selection": ".link",
+            "selector": ".link",
             "grouping": {
                 "groupBy": "id",
                 "reference": "start after previous"
             },
-            "actions": [
+            "effects": [
                 {
                     "type": "grow",
                     "duration": 600

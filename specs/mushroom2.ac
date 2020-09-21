@@ -6,21 +6,42 @@
   ],
   "animations": [
     {
-      "selection": ".symbol",
+      "selector": ".symbol",
       "grouping": {
         "groupBy": "Surface",
         "reference": "start after previous",
+        "delay": 300,
+        "sort": {
+          "order": [
+            "Smooth",
+            "Scaly",
+            "Fibrous"
+          ]
+        },
         "grouping": {
           "groupBy": "Odor",
           "reference": "start after previous",
+          "delay": 200,
+          "sort": {
+            "order": [
+              "Almond",
+              "Anise",
+              "Creosote",
+              "Fishy",
+              "Foul",
+              "None",
+              "Pungent",
+              "Spicy"
+            ]
           },
           "grouping": {
             "groupBy": "IsEdible",
+            "delay": 100,
             "reference": "start after previous"
           }
         }
       },
-      "actions": [
+      "effects": [
         {
           "type": "fade",
           "duration": 600

@@ -24,7 +24,7 @@
     "animations": [
         {
             "selection": ".icon, .rectangle, .text",
-            "actions": [
+            "effects": [
                 {
                     "type": "magic move",
                     "duration": 600

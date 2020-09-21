@@ -6,7 +6,7 @@
   ],
   "animations": [
     {
-      "selection": ".rectangle",
+      "selector": ".rectangle",
       "grouping": {
         "groupBy": "Type",
         "reference": "start after previous",
@@ -15,7 +15,7 @@
             "delay": 200
         }
       },
-      "actions": [
+      "effects": [
         {
           "type": "wheel",
           "duration": 600

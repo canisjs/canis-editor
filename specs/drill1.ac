@@ -12,8 +12,8 @@
     ],
     "animations": [
         {
-            "selection": ".mark",
-            "actions": [
+            "selector": ".mark",
+            "effects": [
                 {
                     "offset": 600,
                     "type": "magic move",
