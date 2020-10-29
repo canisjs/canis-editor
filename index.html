@@ -181,7 +181,8 @@
                 let jsonStr = JSON.stringify(data, null, 2);
                 editor.setValue(jsonStr);
                 editorValue = jsonStr;
-                let canisSpec = await canis.renderSpec(data, loadEnd);
+                console.log('test data', data);
+                let canisSpec = await canis.renderSpec(data, {}, loadEnd);
                 //render lottie
                 lottie.destroy();
                 lottieAni = lottie.loadAnimation({
@@ -255,7 +256,7 @@
                     //reset vars
                     resetPlayerWidgets();
                     canis.reset();
-                    let canisSpec = await canis.renderSpec(JSON.parse(currentValue), loadEnd);
+                    let canisSpec = await canis.renderSpec(JSON.parse(currentValue), {}, loadEnd);
                     //render lottie
                     lottie.destroy();
                     lottieAni = lottie.loadAnimation({
