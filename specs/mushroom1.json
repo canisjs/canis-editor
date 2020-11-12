@@ -2,6 +2,8 @@
   "charts": [
     {
       "source": "./charts/mushrooms.dsvg"
+    },{
+        "source": "./charts/mushrooms1.dsvg"
     }
   ],
   "animations": [
@@ -40,8 +42,7 @@
       },
       "effects": [
         {
-            "extend": "e2",
-          "type": "wipe bottom"
+          "type": "magic move"
         }
       ]
     }
