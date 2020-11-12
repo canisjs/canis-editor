@@ -40,10 +40,21 @@
       },
       "effects": [
         {
-          "type": "fade",
-          "duration": 600
+            "extend": "e2",
+          "type": "wipe bottom"
         }
       ]
+    }
+  ],
+  "effectTmpls": [
+    {
+        "name": "e1",
+        "type": "fade",
+        "duration": 600
+    },{
+        "extend": "e1",
+        "name": "e2",
+        "type": "circle"
     }
   ]
 }

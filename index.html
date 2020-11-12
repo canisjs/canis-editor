@@ -172,7 +172,7 @@
 
             function loadJson(dataName, animationIdx, callback) {
                 $('#loadingCover').css('display', 'block');
-                $.getJSON('specs/' + dataName + animationIdx + '.ac', function (data) {
+                $.getJSON('specs/' + dataName + animationIdx + '.json', function (data) {
                     updateEditorAndLoadAni(data);
                 })
             }
@@ -181,7 +181,6 @@
                 let jsonStr = JSON.stringify(data, null, 2);
                 editor.setValue(jsonStr);
                 editorValue = jsonStr;
-                console.log('test data', data);
                 let canisSpec = await canis.renderSpec(data, {}, loadEnd);
                 //render lottie
                 lottie.destroy();
