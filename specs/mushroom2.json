@@ -1,0 +1,64 @@
+{
+    "charts": [
+        {
+            "source": "./charts/mushrooms.dsvg"
+        },
+        {
+            "source": "./charts/mushrooms1.dsvg"
+        }
+    ],
+    "animations": [
+        {
+            "id": "dot",
+            "selector": ".symbol",
+            "elements": {
+                "enter": {
+                    "grouping": {
+                        "groupBy": "Surface",
+                        "reference": "start after previous",
+                        "grouping": {
+                            "groupBy": "Odor",
+                            "reference": "start after previous",
+                            "grouping": {
+                                "groupBy": "IsEdible",
+                                "reference": "start after previous"
+                            }
+                        }
+                    },
+                    "effects": [
+                        {
+                            "type": "fade",
+                            "duration": 600
+                        }
+                    ]
+                },
+                "update": {
+                    "align": {
+                        "target": "dot.enter.effects[0]",
+                        "type": "obj"
+                    },
+                    "reference": "start after previous",
+                    "effects": [
+                        {
+                            "type": "fade",
+                            "duration": 600
+                        }
+                    ]
+                },
+                "exit": {
+                    "align": {
+                        "target": "dot.update.effects[0]",
+                        "type": "obj"
+                    },
+                    "reference": "start after previous",
+                    "effects": [
+                        {
+                            "type": "fade out",
+                            "duration": 600
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

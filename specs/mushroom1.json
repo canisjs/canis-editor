@@ -12,28 +12,9 @@
       "grouping": {
         "groupBy": "Surface",
         "reference": "start after previous",
-        "sort": {
-          "order": [
-            "Smooth",
-            "Scaly",
-            "Fibrous"
-          ]
-        },
         "grouping": {
           "groupBy": "Odor",
           "reference": "start after previous",
-          "sort": {
-            "order": [
-              "Almond",
-              "Anise",
-              "Creosote",
-              "Fishy",
-              "Foul",
-              "None",
-              "Pungent",
-              "Spicy"
-            ]
-          },
           "grouping": {
             "groupBy": "IsEdible",
             "reference": "start after previous"
@@ -42,20 +23,31 @@
       },
       "effects": [
         {
-          "type": "magic move"
+          "type": "fade",
+          "duration": 600
         }
       ]
-    }
-  ],
-  "effectTmpls": [
-    {
-        "name": "e1",
-        "type": "fade",
-        "duration": 600
     },{
-        "extend": "e1",
-        "name": "e2",
-        "type": "circle"
+        "reference": "start after previous",
+        "selector": ".symbol",
+        "grouping": {
+            "groupBy": "Surface",
+            "reference": "start after previous",
+            "grouping": {
+                "groupBy": "Odor",
+                "reference": "start after previous",
+                "grouping": {
+                    "groupBy": "IsEdible",
+                    "reference": "start after previous"
+                }
+            }
+        },
+        "effects": [
+            {
+                "type": "wipe bottom",
+                "duration": 300
+            }
+        ]
     }
   ]
 }
