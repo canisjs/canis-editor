@@ -35,7 +35,7 @@
                 "update": {
                     "align": {
                         "target": "dot.enter.effects[0]",
-                        "type": "obj"
+                        "type": "object"
                     },
                     "reference": "start after previous",
                     "effects": [
@@ -48,7 +48,7 @@
                 "exit": {
                     "align": {
                         "target": "dot.update.effects[0]",
-                        "type": "obj"
+                        "type": "object"
                     },
                     "reference": "start after previous",
                     "effects": [
