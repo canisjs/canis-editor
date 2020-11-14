@@ -40,7 +40,7 @@
                     "reference": "start after previous",
                     "effects": [
                         {
-                            "type": "fade",
+                            "type": "translate X",
                             "duration": 600
                         }
                     ]
