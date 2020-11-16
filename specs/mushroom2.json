@@ -42,6 +42,9 @@
                         {
                             "type": "translate X",
                             "duration": 600
+                        },{
+                            "type": "translate Y",
+                            "duration": 600
                         }
                     ]
                 },
