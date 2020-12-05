@@ -1,0 +1,39 @@
+{
+    "charts": [
+        {
+            "source": "./charts/barChart1.dsvg"
+        },
+        {
+            "source": "./charts/barChart2.dsvg"
+        }
+    ],
+    "animations": [
+        {
+            "id": "dot",
+            "selector": ".rectangle",
+            "elements": {
+                "enter": {
+                    "effects": [
+                        {
+                            "type": "fade",
+                            "duration": 200
+                        }
+                    ]
+                },
+                "update": {
+                    "align": {
+                        "target": "dot.enter.effects[0]",
+                        "type": "object"
+                    },
+                    "reference": "start after previous",
+                    "effects": [
+                        {
+                            "type": "scale Y",
+                            "duration": 600
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

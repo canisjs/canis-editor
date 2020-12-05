@@ -1,10 +1,10 @@
 {
     "charts": [
         {
-            "source": "./charts/mushrooms.dsvg"
+            "source": "./charts/product1.dsvg"
         },
         {
-            "source": "./charts/mushrooms1.dsvg"
+            "source": "./charts/product2.dsvg"
         }
     ],
     "animations": [
@@ -13,10 +13,6 @@
             "selector": ".symbol",
             "elements": {
                 "enter": {
-                    "grouping": {
-                        "groupBy": "Surface",
-                        "reference": "start after previous"
-                    },
                     "effects": [
                         {
                             "type": "fade",

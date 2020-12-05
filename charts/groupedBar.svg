@@ -48,7 +48,6 @@
                     </g>
                     <g class="mark-group role-scope scope">
                         <g transform="translate(27.27272727272728,0)">
-                            <path class="background" d="M0,0h0v0h0Z" fill="none"></path>
                             <g>
                                 <g class="mark-rect role-mark bars">
                                     <path id="mark5000" class="mark element0 rectangle" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;element0&quot;,&quot;_x&quot;:0,&quot;_y&quot;:0,&quot;category&quot;:&quot;2001&quot;,&quot;position&quot;:&quot;Apple&quot;,&quot;value&quot;:260}" d="M0,0h36.36363636363636v240h-36.36363636363636Z" fill="#1f77b4"></path>

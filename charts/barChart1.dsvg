@@ -1,0 +1,98 @@
+<svg id="visChart" x="0" y="0" width="900" height="600" viewBox="0 0 900.000000 600.000000"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve">
+    <g id="chartContent" transform="translate(450.000000,300.000000)">
+        <g transform="translate(0,0)" opacity="1">
+            <g transform="translate(0,0)" opacity="1"></g>
+            <g transform="translate(0,0)" opacity="1">
+                <g transform="translate(0,0)" opacity="1">
+                    <g transform="translate(0,0)" opacity="1">
+                        <g transform="translate(0,0)" opacity="1"></g>
+                        <g transform="translate(0,0)" opacity="1">
+                            <g transform="translate(0,0)" opacity="1">
+                                <path id="mark1" class=" mark Shape1 rectangle" d="M -400,250 L -399.99652918,109.00263742 L -159.99760711,109.00193792 L -159.9966848,250.00065423 Z" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:-280,&quot;_y&quot;:-179.49999975805153,&quot;_id&quot;:&quot;0&quot;,&quot;name&quot;:&quot;userA&quot;,&quot;value&quot;:30}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(217,217,217)" fill-opacity="1" text-anchor="start" opacity="1" cursor="pointer" pointer-events="all"></path>
+                            </g>
+                            <g transform="translate(0,0)" opacity="1">
+                                <path id="mark2" class=" mark Shape1 rectangle" d="M -120,250 L -119.99991608,15.00466477 L 120.00027807,14.99750217 L 120.00189873,249.99566577 Z" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:-2.842170943040401e-14,&quot;_y&quot;:-132.49999959675256,&quot;_id&quot;:&quot;1&quot;,&quot;name&quot;:&quot;userB&quot;,&quot;value&quot;:50}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(217,217,217)" fill-opacity="1" text-anchor="start" opacity="1" cursor="pointer" pointer-events="all"></path>
+                            </g>
+                            <g transform="translate(0,0)" opacity="1">
+                                <path id="mark3" class=" mark Shape1 rectangle" d="M 160,250 L 160.00085495,-220.00145411 L 399.99894317,-219.99563359 L 400.00166442,250.00224076 Z" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:280,&quot;_y&quot;:-14.99999919350509,&quot;_id&quot;:&quot;2&quot;,&quot;name&quot;:&quot;UserC&quot;,&quot;value&quot;:100}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(217,217,217)" fill-opacity="1" text-anchor="start" opacity="1" cursor="pointer" pointer-events="all"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g transform="translate(0,0)" opacity="1">
+                        <g transform="translate(0,0)" class="axis" data-datum="{&quot;_TYPE&quot;:&quot;axis&quot;,&quot;type&quot;:&quot;x&quot;,&quot;position&quot;:&quot;name&quot;,&quot;scale&quot;:&quot;ordinal&quot;,&quot;domain&quot;:[&quot;userA&quot;,&quot;userB&quot;,&quot;userC&quot;],&quot;range&quot;:[0,1]}" opacity="1">
+                            <path id="mark1001" class=" mark axis-domain" d="M -400,250 L 399.99715003,250.00479468" data-datum="{&quot;_TYPE&quot;:&quot;axis-domain&quot;}" stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="round" fill="none" fill-opacity="1" text-anchor="start" opacity="1"></path>
+                            <path id="mark2001" class=" mark axis-tick" d="M -280,250 L -280.00422154,255.00232103" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;,&quot;text&quot;:&quot;userA&quot;}" stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="round" fill="none" fill-opacity="1" text-anchor="start" opacity="1"></path>
+                            <path id="mark2002" class=" mark axis-tick" d="M -0,250 L 0.00258181,254.99581758" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;,&quot;text&quot;:&quot;userB&quot;}" stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="round" fill="none" fill-opacity="1" text-anchor="start" opacity="1"></path>
+                            <path id="mark2003" class=" mark axis-tick" d="M 280,250 L 279.99719971,254.99537912" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;,&quot;text&quot;:&quot;UserC&quot;}" stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="round" fill="none" fill-opacity="1" text-anchor="start" opacity="1"></path>
+                            <path id="mark1002" class=" mark axis-domain" d="M -400,250 L -399.99591971,255.00454135" data-datum="{&quot;_TYPE&quot;:&quot;axis-domain&quot;}" stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="round" fill="none" fill-opacity="1" text-anchor="start" opacity="1"></path>
+                            <path id="mark1003" class=" mark axis-domain" d="M 400,250 L 399.99858238,255.00269744" data-datum="{&quot;_TYPE&quot;:&quot;axis-domain&quot;}" stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="round" fill="none" fill-opacity="1" text-anchor="start" opacity="1"></path>
+                            <g transform="translate(-280,258)" opacity="1">
+                                <text id="mark3001" class=" mark axis-label" x="-15.673828125" y="10.396272568433318" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;userA&quot;}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="rgb(0,0,0)" fill-opacity="1" text-anchor="start" opacity="1" font-family="Arial" font-size="12px">userA</text>
+                            </g>
+                            <g transform="translate(-0,258)" opacity="1">
+                                <text id="mark3002" class=" mark axis-label" x="-15.673828125" y="10.396272568433318" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;userB&quot;}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="rgb(0,0,0)" fill-opacity="1" text-anchor="start" opacity="1" font-family="Arial" font-size="12px">userB</text>
+                            </g>
+                            <g transform="translate(280,258)" opacity="1">
+                                <text id="mark3003" class=" mark axis-label" x="-17.0009765625" y="10.396272568433318" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;UserC&quot;}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="rgb(0,0,0)" fill-opacity="1" text-anchor="start" opacity="1" font-family="Arial" font-size="12px">UserC</text>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g transform="translate(0,0)" opacity="1">
+                <g transform="translate(0,-300)" opacity="1">
+                    <text x="-36.685546875" y="51.254979615608626" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="rgb(0,0,0)" fill-opacity="1" text-anchor="start" opacity="1" font-family="Arial" font-size="24px">testbar</text>
+                </g>
+            </g>
+            <g transform="translate(0,0)" opacity="1">
+                <g transform="translate(0,0)" id="mark4001" class="axis" data-datum="{&quot;_TYPE&quot;:&quot;axis&quot;,&quot;height&quot;:&quot;value&quot;,&quot;scale&quot;:&quot;linear&quot;,&quot;domain&quot;:[0,100],&quot;range&quot;:[0,418.8]}" opacity="1">
+                    <path id="mark1004" class=" mark axis-domain" d="M -400,250 L -399.99548944,-220.00303115" data-datum="{&quot;_TYPE&quot;:&quot;axis-domain&quot;}" stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="round" fill="none" fill-opacity="1" text-anchor="start" opacity="1"></path>
+                    <path id="mark2004" class=" mark axis-tick" d="M -400,250 L -404.99808507,249.99695796" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;,&quot;text&quot;:&quot;0&quot;}" stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="round" fill="none" fill-opacity="1" text-anchor="start" opacity="1"></path>
+                    <path id="mark2005" class=" mark axis-tick" d="M -400,202.99999984 L -404.99547103,203.00246485" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;,&quot;text&quot;:&quot;10&quot;}" stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="round" fill="none" fill-opacity="1" text-anchor="start" opacity="1"></path>
+                    <path id="mark2006" class=" mark axis-tick" d="M -400,155.99999968 L -405.00044457,155.99698911" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;,&quot;text&quot;:&quot;20&quot;}" stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="round" fill="none" fill-opacity="1" text-anchor="start" opacity="1"></path>
+                    <path id="mark2007" class=" mark axis-tick" d="M -400,108.99999952 L -405.00393599,108.99628459" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;,&quot;text&quot;:&quot;30&quot;}" stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="round" fill="none" fill-opacity="1" text-anchor="start" opacity="1"></path>
+                    <path id="mark2008" class=" mark axis-tick" d="M -400,61.99999935 L -404.99949663,62.0045776" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;,&quot;text&quot;:&quot;40&quot;}" stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="round" fill="none" fill-opacity="1" text-anchor="start" opacity="1"></path>
+                    <path id="mark2009" class=" mark axis-tick" d="M -400,14.99999919 L -404.99937107,14.99792037" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;,&quot;text&quot;:&quot;50&quot;}" stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="round" fill="none" fill-opacity="1" text-anchor="start" opacity="1"></path>
+                    <path id="mark2010" class=" mark axis-tick" d="M -400,-32.00000097 L -404.99920738,-32.00128053" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;,&quot;text&quot;:&quot;60&quot;}" stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="round" fill="none" fill-opacity="1" text-anchor="start" opacity="1"></path>
+                    <path id="mark2011" class=" mark axis-tick" d="M -400,-79.00000113 L -404.99845896,-78.9986015" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;,&quot;text&quot;:&quot;70&quot;}" stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="round" fill="none" fill-opacity="1" text-anchor="start" opacity="1"></path>
+                    <path id="mark2012" class=" mark axis-tick" d="M -400,-126.00000129 L -404.99512175,-125.99812244" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;,&quot;text&quot;:&quot;80&quot;}" stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="round" fill="none" fill-opacity="1" text-anchor="start" opacity="1"></path>
+                    <path id="mark2013" class=" mark axis-tick" d="M -400,-173.00000145 L -404.9993697,-173.00294972" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;,&quot;text&quot;:&quot;90&quot;}" stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="round" fill="none" fill-opacity="1" text-anchor="start" opacity="1"></path>
+                    <path id="mark1005" class=" mark axis-domain" d="M -400,250 L -405.00308148,250.00493222" data-datum="{&quot;_TYPE&quot;:&quot;axis-domain&quot;}" stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="round" fill="none" fill-opacity="1" text-anchor="start" opacity="1"></path>
+                    <path id="mark1006" class=" mark axis-domain" d="M -400,-220 L -404.99731184,-219.99975371" data-datum="{&quot;_TYPE&quot;:&quot;axis-domain&quot;}" stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="round" fill="none" fill-opacity="1" text-anchor="start" opacity="1"></path>
+                    <g transform="translate(-408,250)" opacity="1">
+                        <text id="mark3004" class=" mark axis-label" x="-6.673828125" y="3.929947582993595" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;0&quot;}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="rgb(0,0,0)" fill-opacity="1" text-anchor="start" opacity="1" font-family="Arial" font-size="12px">0</text>
+                    </g>
+                    <g transform="translate(-408,202.99999984)" opacity="1">
+                        <text id="mark3005" class=" mark axis-label" x="-13.34765625" y="3.929947582993595" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;10&quot;}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="rgb(0,0,0)" fill-opacity="1" text-anchor="start" opacity="1" font-family="Arial" font-size="12px">10</text>
+                    </g>
+                    <g transform="translate(-408,155.99999968)" opacity="1">
+                        <text id="mark3006" class=" mark axis-label" x="-13.34765625" y="3.929947582993595" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;20&quot;}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="rgb(0,0,0)" fill-opacity="1" text-anchor="start" opacity="1" font-family="Arial" font-size="12px">20</text>
+                    </g>
+                    <g transform="translate(-408,108.99999952)" opacity="1">
+                        <text id="mark3007" class=" mark axis-label" x="-13.34765625" y="3.929947582993595" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;30&quot;}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="rgb(0,0,0)" fill-opacity="1" text-anchor="start" opacity="1" font-family="Arial" font-size="12px">30</text>
+                    </g>
+                    <g transform="translate(-408,61.99999935)" opacity="1">
+                        <text id="mark3008" class=" mark axis-label" x="-13.34765625" y="3.929947582993595" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;40&quot;}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="rgb(0,0,0)" fill-opacity="1" text-anchor="start" opacity="1" font-family="Arial" font-size="12px">40</text>
+                    </g>
+                    <g transform="translate(-408,14.99999919)" opacity="1">
+                        <text id="mark3009" class=" mark axis-label" x="-13.34765625" y="3.929947582993595" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;50&quot;}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="rgb(0,0,0)" fill-opacity="1" text-anchor="start" opacity="1" font-family="Arial" font-size="12px">50</text>
+                    </g>
+                    <g transform="translate(-408,-32.00000097)" opacity="1">
+                        <text id="mark3010" class=" mark axis-label" x="-13.34765625" y="3.929947582993595" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;60&quot;}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="rgb(0,0,0)" fill-opacity="1" text-anchor="start" opacity="1" font-family="Arial" font-size="12px">60</text>
+                    </g>
+                    <g transform="translate(-408,-79.00000113)" opacity="1">
+                        <text id="mark3011" class=" mark axis-label" x="-13.34765625" y="3.929947582993595" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;70&quot;}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="rgb(0,0,0)" fill-opacity="1" text-anchor="start" opacity="1" font-family="Arial" font-size="12px">70</text>
+                    </g>
+                    <g transform="translate(-408,-126.00000129)" opacity="1">
+                        <text id="mark3012" class=" mark axis-label" x="-13.34765625" y="3.929947582993595" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;80&quot;}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="rgb(0,0,0)" fill-opacity="1" text-anchor="start" opacity="1" font-family="Arial" font-size="12px">80</text>
+                    </g>
+                    <g transform="translate(-408,-173.00000145)" opacity="1">
+                        <text id="mark3013" class=" mark axis-label" x="-13.34765625" y="3.929947582993595" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;90&quot;}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="rgb(0,0,0)" fill-opacity="1" text-anchor="start" opacity="1" font-family="Arial" font-size="12px">90</text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
