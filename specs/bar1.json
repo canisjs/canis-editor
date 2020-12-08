@@ -16,7 +16,7 @@
                     "effects": [
                         {
                             "type": "fade",
-                            "duration": 200
+                            "duration": 800
                         }
                     ]
                 },
