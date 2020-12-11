@@ -1,10 +1,10 @@
 {
     "charts": [
         {
-            "source": "./charts/transitionTest/barChart1.dsvg"
+            "source": "./charts/transitionTest/scatter1.dsvg"
         },
         {
-            "source": "./charts/transitionTest/barChart2.dsvg"
+            "source": "./charts/transitionTest/scatter2.dsvg"
         }
     ],
     "animations": [
