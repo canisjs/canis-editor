@@ -9,10 +9,14 @@
     ],
     "animations": [
         {
-            "id": "dot",
+            "id": "rect",
             "selector": ".rectangle",
             "elements": {
                 "enter": {
+                    "grouping": {
+                        "groupBy": "id",
+                        "reference": "start after previous"
+                    },
                     "effects": [
                         {
                             "type": "fade",
@@ -22,7 +26,7 @@
                 },
                 "update": {
                     "align": {
-                        "target": "dot.enter.effects[0]",
+                        "target": "rect.enter.effects[0]",
                         "type": "object"
                     },
                     "reference": "start after previous",
